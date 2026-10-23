@@ -30,3 +30,6 @@ python -m unittest discover -s tests -v
 
 Datos y formato: [data/README.md](data/README.md).
 Problema y diseño: [docs/proyecto.md](docs/proyecto.md).
+Defensa: [docs/defensa.md](docs/defensa.md).
+Entrega: [docs/entrega.md](docs/entrega.md).
+Requisitos: [docs/cumplimiento.md](docs/cumplimiento.md).
