@@ -27,7 +27,8 @@ class FuenteCSV(FuenteDatos):
             registros = list(lector)
         for numero, registro in enumerate(registros, start=1):
             if None in registro or None in registro.values():
-                raise ValueError(f"Registro {numero}: cantidad de campos errónea.")
+                mensaje = f"Registro {numero}: cantidad de campos incorrecta."
+                raise ValueError(mensaje)
         return registros
 
 
