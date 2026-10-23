@@ -3,6 +3,7 @@
 import csv
 import json
 from pathlib import Path
+import sys
 
 from src.productos import UNIDADES
 
@@ -57,3 +58,18 @@ def mostrar_comparacion(tabla):
             else:
                 valores.append(str(valor))
         print(" | ".join(valores))
+
+
+def mostrar_rechazos(rechazos, total):
+    """Informar descartes del listado sin generar ni reemplazar archivos."""
+    if not rechazos:
+        return
+    print(f"Advertencia: registros rechazados: {len(rechazos)} de {total}.",
+          file=sys.stderr)
+    print("Las categorías incluyen solo fichas válidas.", file=sys.stderr)
+    for rechazo in rechazos:
+        numero = rechazo["registro"]
+        codigo = rechazo["codigo"]
+        motivo = rechazo["motivo"]
+        print(f"Registro {numero} | código: {codigo} | motivo: {motivo}",
+              file=sys.stderr)
