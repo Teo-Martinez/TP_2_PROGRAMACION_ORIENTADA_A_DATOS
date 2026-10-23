@@ -4,6 +4,8 @@ from abc import ABC, abstractmethod
 import csv
 import json
 
+from src.preparacion import extraer_campos
+
 
 class FuenteDatos(ABC):
     """Contrato común de lectura para la aplicación."""
@@ -33,7 +35,7 @@ class FuenteCSV(FuenteDatos):
 
 
 class FuenteJSON(FuenteDatos):
-    """Leer una lista JSON de fichas con campos planos."""
+    """Leer JSON plano o anidado y entregar fichas con los mismos campos."""
 
     def cargar(self, ruta):
         with open(ruta, encoding="utf-8") as archivo:
@@ -42,4 +44,4 @@ class FuenteJSON(FuenteDatos):
             raise ValueError("El JSON debe contener una lista de productos.")
         if not all(isinstance(registro, dict) for registro in registros):
             raise ValueError("Cada producto JSON debe ser un objeto.")
-        return registros
+        return [extraer_campos(registro) for registro in registros]

@@ -58,8 +58,9 @@ pruebas, aislamiento de casos y comprobación de sintaxis.
 
 Leer → diagnosticar → validar esquema → normalizar y validar fichas → seleccionar
 → comparar → mostrar y exportar. La entrada nunca se escribe durante el análisis.
-El JSON acordado usa campos planos; una fuente con datos anidados requiere una
-adaptación explícita a este contrato. No se afirma importar Open Food Facts.
+El JSON admite campos planos o nutrientes anidados con valor y unidad.
+`extraer_campos` adapta esa estructura al contrato común sin modificar la
+entrada. No se afirma importar cualquier esquema de Open Food Facts.
 
 1. Encabezados únicos y filas CSV con igual cantidad de campos. JSON debe ser
    una lista de objetos. Fallas de apertura y JSON malformado se informan.

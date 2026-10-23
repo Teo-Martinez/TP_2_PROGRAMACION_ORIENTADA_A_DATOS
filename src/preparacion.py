@@ -10,6 +10,29 @@ for nombre in UNIDADES:
     CAMPOS.extend([nombre, f"{nombre}_unidad"])
 
 
+def extraer_campos(registro):
+    """Adaptar nutrientes anidados al esquema plano sin alterar la entrada."""
+    plano = dict(registro)
+    if "nutrientes" not in registro:
+        return plano
+    bloque = plano.pop("nutrientes")
+    if not isinstance(bloque, dict):
+        raise ValueError("El campo nutrientes debe ser un objeto JSON.")
+    for nombre in UNIDADES:
+        if nombre in plano or f"{nombre}_unidad" in plano:
+            raise ValueError("No mezcles nutrientes planos y anidados.")
+        if nombre not in bloque:
+            continue
+        detalle = bloque[nombre]
+        if not isinstance(detalle, dict):
+            raise ValueError(f"{nombre}: se requiere un objeto valor/unidad.")
+        if "valor" not in detalle or "unidad" not in detalle:
+            raise ValueError(f"{nombre}: faltan las claves valor o unidad.")
+        plano[nombre] = detalle["valor"]
+        plano[f"{nombre}_unidad"] = detalle["unidad"]
+    return plano
+
+
 def es_faltante(valor):
     """Reconocer null y códigos de ausencia; mantener el cero como conocido."""
     return valor is None or (
@@ -33,6 +56,7 @@ def convertir_numero(valor, campo):
 
 def diagnosticar(registros):
     """Cuantificar ausencias y repeticiones antes de aplicar la limpieza."""
+    registros = [extraer_campos(registro) for registro in registros]
     faltantes = {campo: 0 for campo in CAMPOS}
     vistos = set()
     duplicados = 0
@@ -50,6 +74,7 @@ def diagnosticar(registros):
 
 def normalizar_ficha(registro):
     """Preparar una ficha con unidades explícitas y base exclusiva de 100 g."""
+    registro = extraer_campos(registro)
     codigo = registro["codigo"]
     if not isinstance(codigo, str):
         raise ValueError("El código debe ser texto para conservar los ceros.")
@@ -120,6 +145,7 @@ def preparar_productos(registros):
     """Validar esquema, aceptar fichas y registrar cambios y rechazos."""
     if not registros:
         raise ValueError("La entrada no contiene productos.")
+    registros = [extraer_campos(registro) for registro in registros]
     for numero, registro in enumerate(registros, start=1):
         faltan = sorted(set(CAMPOS) - set(registro))
         if faltan:

@@ -8,7 +8,7 @@ comprobó con Python 3.12; eso no equivale a ejecutar en todas las versiones.
 python -m unittest discover -s tests -v
 ```
 
-Resultado: 30 pruebas correctas. Incluyen generación determinista, lectores,
+Resultado: 37 pruebas correctas. Incluyen generación determinista, lectores,
 conversiones, faltantes frente a cero, EAN con ceros iniciales, rangos,
 duplicados, trazabilidad, conservación de conteos, consultas, ordenamiento,
 exportación, protección de entrada y equivalencia integral entre CSV y JSON.
@@ -19,3 +19,7 @@ Se revisó PEP 8 con pycodestyle (reglas predeterminadas, 79 columnas). Esta
 herramienta es de revisión y no es una dependencia para ejecutar la aplicación.
 Para reproducir esa revisión opcional: instalar pycodestyle y ejecutar
 `python -m pycodestyle src scripts tests`.
+
+La primera corrección agrega siete pruebas de JSON anidado: conversión conocida,
+entrada intacta, contrato común del lector, equivalencia de 500 fichas, ausencias
+frente a cero, estructuras inválidas y exportación desde la consola.
