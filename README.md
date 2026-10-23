@@ -2,6 +2,8 @@
 
 Autor: Teo Martinez. TP2 de Programación Orientada a Datos.
 
+[Repositorio en GitHub](https://github.com/Teo-Martinez/TP_2_PROGRAMACION_ORIENTADA_A_DATOS)
+
 Consulta y compara nutrientes por cada 100 g. Incluye 500 productos ficticios.
 Requiere Python 3.10 o posterior, sin instalar bibliotecas externas.
 
@@ -20,7 +22,8 @@ En Windows podés usar `py` en lugar de `python`.
 Cada comparación válida reemplaza cuatro archivos en `outputs/`:
 `comparacion.csv`, `rechazos.csv`, `cambios.csv` y `diagnostico.json`.
 `--salida otra_carpeta` permite conservar ejecuciones por separado.
-Los faltantes aparecen como "No disponible". Listar categorías no escribe archivos.
+Los faltantes aparecen como "No disponible". Listar categorías no escribe archivos
+y avisa los motivos si descarta fichas inválidas.
 
 Pruebas:
 
