@@ -1,0 +1,501 @@
+codigo,nombre,categorias,base_g,energia,energia_unidad,proteinas,proteinas_unidad,carbohidratos,carbohidratos_unidad,azucares,azucares_unidad,grasas,grasas_unidad,sodio,sodio_unidad
+0000000000001,Cereal simulado 001,cereales|envasados,100,370.0,kcal,10.0,g,70.0,g,,g,5.0,g,150.0,mg
+0000000000002,Yogur simulado 002,lacteos|envasados,100,292.88,kj,6000.0,mg,8000.0,mg,6000.0,mg,2000.0,mg,0.05,g
+0000000000003,Galletita simulado 003,galletitas|envasados,100,440.0,kcal,7.0,g,65.0,g,20.0,g,17.0,g,0,mg
+0000000000004,Lenteja simulado 004,legumbres|envasados,100,1380.72,kj,23000.0,mg,55000.0,mg,2000.0,mg,2000.0,mg,0.008,g
+0000000000005,Mezcla simulado 005,frutos secos|envasados,100,590.0,kcal,19.0,g,20.0,g,4.0,g,49.0,g,4.0,mg
+0000000000006,Cereal simulado 006,cereales|envasados,100,1549.62808,kj,10010.0,mg,70070.0,mg,12012.0,mg,5005.0,mg,0.15015,g
+0000000000007,Yogur simulado 007,lacteos|envasados,100,70.07,kcal,6.006,g,8.008,g,6.006,g,2.002,g,50.05,mg
+0000000000008,Galletita simulado 008,galletitas|envasados,100,1842.80096,kj,7007.0,mg,65065.0,mg,,mg,17017.0,mg,0.25025,g
+0000000000009,Lenteja simulado 009,legumbres|envasados,100,330.33,kcal,23.023,g,55.055,g,2.002,g,2.002,g,8.008,mg
+0000000000010,Mezcla simulado 010,frutos secos|envasados,100,2471.02856,kj,19019.0,mg,20020.0,mg,4004.0,mg,49049.0,mg,0.004004,g
+0000000000011,Cereal simulado 011,cereales|envasados,100,370.74,kcal,10.02,g,70.14,g,12.024,g,5.01,g,150.3,mg
+0000000000012,Yogur simulado 012,lacteos|envasados,100,293.46576,kj,6012.0,mg,8016.0,mg,6012.0,mg,2004.0,mg,0.0501,g
+0000000000013,Galletita simulado 013,galletitas|envasados,100,440.88,kcal,7.014,g,65.13,g,20.04,g,17.034,g,250.5,mg
+0000000000014,Lenteja simulado 014,legumbres|envasados,100,1383.48144,kj,23046.0,mg,55110.0,mg,2004.0,mg,2004.0,mg,0.008016,g
+0000000000015,Mezcla simulado 015,frutos secos|envasados,100,591.18,kcal,19.038,g,20.04,g,,g,49.098,g,4.008,mg
+0000000000016,Cereal simulado 016,cereales|envasados,100,1552.72424,kj,10030.0,mg,70210.0,mg,12036.0,mg,5015.0,mg,0.15045,g
+0000000000017,Yogur simulado 017,lacteos|envasados,100,70.21,kcal,6.018,g,8.024,g,6.018,g,2.006,g,50.15,mg
+0000000000018,Galletita simulado 018,galletitas|envasados,100,1846.48288,kj,7021.0,mg,65195.0,mg,20060.0,mg,17051.0,mg,0.25075,g
+0000000000019,Lenteja simulado 019,legumbres|envasados,100,330.99,kcal,23.069,g,55.165,g,2.006,g,2.006,g,8.024,mg
+0000000000020,Mezcla simulado 020,frutos secos|envasados,100,2475.96568,kj,19057.0,mg,20060.0,mg,4012.0,mg,49147.0,mg,0.004012,g
+0000000000021,Cereal simulado 021,cereales|envasados,100,371.48,kcal,10.04,g,70.28,g,12.048,g,5.02,g,150.6,mg
+0000000000022,Yogur simulado 022,lacteos|envasados,100,294.05152,kj,6024.0,mg,8032.0,mg,,mg,2008.0,mg,0.0502,g
+0000000000023,Galletita simulado 023,galletitas|envasados,100,441.76,kcal,7.028,g,65.26,g,20.08,g,17.068,g,251.0,mg
+0000000000024,Lenteja simulado 024,legumbres|envasados,100,1386.24288,kj,23092.0,mg,55220.0,mg,2008.0,mg,2008.0,mg,0.008032,g
+0000000000025,Mezcla simulado 025,frutos secos|envasados,100,592.36,kcal,19.076,g,20.08,g,4.016,g,49.196,g,4.016,mg
+0000000000026,Cereal simulado 026,cereales|envasados,100,1555.8204,kj,10050.0,mg,70350.0,mg,12060.0,mg,5025.0,mg,0.15075,g
+0000000000027,Yogur simulado 027,lacteos|envasados,100,70.35,kcal,6.03,g,8.04,g,6.03,g,2.01,g,50.25,mg
+0000000000028,Galletita simulado 028,galletitas|envasados,100,1850.1648,kj,7035.0,mg,65325.0,mg,20100.0,mg,17085.0,mg,0.25125,g
+0000000000029,Lenteja simulado 029,legumbres|envasados,100,331.65,kcal,23.115,g,55.275,g,,g,2.01,g,8.04,mg
+0000000000030,Mezcla simulado 030,frutos secos|envasados,100,2480.9028,kj,19095.0,mg,20100.0,mg,4020.0,mg,49245.0,mg,0.00402,g
+0000000000031,Cereal simulado 031,cereales|envasados,100,372.22,kcal,10.06,g,70.42,g,12.072,g,5.03,g,150.9,mg
+0000000000032,Yogur simulado 032,lacteos|envasados,100,294.63728,kj,6036.0,mg,8048.0,mg,6036.0,mg,2012.0,mg,0.0503,g
+0000000000033,Galletita simulado 033,galletitas|envasados,100,442.64,kcal,7.042,g,65.39,g,20.12,g,17.102,g,251.5,mg
+0000000000034,Lenteja simulado 034,legumbres|envasados,100,1389.00432,kj,23138.0,mg,55330.0,mg,2012.0,mg,2012.0,mg,0.008048,g
+0000000000035,Mezcla simulado 035,frutos secos|envasados,100,593.54,kcal,19.114,g,20.12,g,4.024,g,49.294,g,4.024,mg
+0000000000036,Cereal simulado 036,cereales|envasados,100,1558.91656,kj,10070.0,mg,70490.0,mg,,mg,5035.0,mg,0.15105,g
+0000000000037,Yogur simulado 037,lacteos|envasados,100,70.49,kcal,6.042,g,8.056,g,6.042,g,2.014,g,50.35,mg
+0000000000038,Galletita simulado 038,galletitas|envasados,100,1853.84672,kj,7049.0,mg,65455.0,mg,20140.0,mg,17119.0,mg,0.25175,g
+0000000000039,Lenteja simulado 039,legumbres|envasados,100,332.31,kcal,23.161,g,55.385,g,2.014,g,2.014,g,8.056,mg
+0000000000040,Mezcla simulado 040,frutos secos|envasados,100,2485.83992,kj,19133.0,mg,20140.0,mg,4028.0,mg,49343.0,mg,0.004028,g
+0000000000041,Cereal simulado 041,cereales|envasados,100,372.96,kcal,10.08,g,70.56,g,12.096,g,5.04,g,151.2,mg
+0000000000042,Yogur simulado 042,lacteos|envasados,100,295.22304,kj,6048.0,mg,8064.0,mg,6048.0,mg,2016.0,mg,0.0504,g
+0000000000043,Galletita simulado 043,galletitas|envasados,100,443.52,kcal,7.056,g,65.52,g,,g,17.136,g,252.0,mg
+0000000000044,Lenteja simulado 044,legumbres|envasados,100,1391.76576,kj,23184.0,mg,55440.0,mg,2016.0,mg,2016.0,mg,0.008064,g
+0000000000045,Mezcla simulado 045,frutos secos|envasados,100,594.72,kcal,19.152,g,20.16,g,4.032,g,49.392,g,4.032,mg
+0000000000046,Cereal simulado 046,cereales|envasados,100,1562.01272,kj,10090.0,mg,70630.0,mg,12108.0,mg,5045.0,mg,0.15135,g
+0000000000047,Yogur simulado 047,lacteos|envasados,100,70.63,kcal,6.054,g,8.072,g,6.054,g,2.018,g,50.45,mg
+0000000000048,Galletita simulado 048,galletitas|envasados,100,1857.52864,kj,7063.0,mg,65585.0,mg,20180.0,mg,17153.0,mg,0.25225,g
+0000000000049,Lenteja simulado 049,legumbres|envasados,100,332.97,kcal,23.207,g,55.495,g,2.018,g,2.018,g,8.072,mg
+0000000000050,Mezcla simulado 050,frutos secos|envasados,100,2490.77704,kj,19171.0,mg,20180.0,mg,,mg,49441.0,mg,0.004036,g
+0000000000051,Cereal simulado 051,cereales|envasados,100,373.7,kcal,10.1,g,70.7,g,12.12,g,5.05,g,151.5,mg
+0000000000052,Yogur simulado 052,lacteos|envasados,100,295.8088,kj,6060.0,mg,8080.0,mg,6060.0,mg,2020.0,mg,0.0505,g
+0000000000053,Galletita simulado 053,galletitas|envasados,100,444.4,kcal,7.07,g,65.65,g,20.2,g,17.17,g,252.5,mg
+0000000000054,Lenteja simulado 054,legumbres|envasados,100,1394.5272,kj,23230.0,mg,55550.0,mg,2020.0,mg,2020.0,mg,0.00808,g
+0000000000055,Mezcla simulado 055,frutos secos|envasados,100,595.9,kcal,19.19,g,20.2,g,4.04,g,49.49,g,4.04,mg
+0000000000056,Cereal simulado 056,cereales|envasados,100,1565.10888,kj,10110.0,mg,70770.0,mg,12132.0,mg,5055.0,mg,0.15165,g
+0000000000057,Yogur simulado 057,lacteos|envasados,100,70.77,kcal,6.066,g,8.088,g,,g,2.022,g,50.55,mg
+0000000000058,Galletita simulado 058,galletitas|envasados,100,1861.21056,kj,7077.0,mg,65715.0,mg,20220.0,mg,17187.0,mg,0.25275,g
+0000000000059,Lenteja simulado 059,legumbres|envasados,100,333.63,kcal,23.253,g,55.605,g,2.022,g,2.022,g,8.088,mg
+0000000000060,Mezcla simulado 060,frutos secos|envasados,100,2495.71416,kj,19209.0,mg,20220.0,mg,4044.0,mg,49539.0,mg,0.004044,g
+0000000000061,Cereal simulado 061,cereales|envasados,100,374.44,kcal,10.12,g,70.84,g,12.144,g,5.06,g,151.8,mg
+0000000000062,Yogur simulado 062,lacteos|envasados,100,296.39456,kj,6072.0,mg,8096.0,mg,6072.0,mg,2024.0,mg,0.0506,g
+0000000000063,Galletita simulado 063,galletitas|envasados,100,445.28,kcal,7.084,g,65.78,g,20.24,g,17.204,g,253.0,mg
+0000000000064,Lenteja simulado 064,legumbres|envasados,100,1397.28864,kj,23276.0,mg,55660.0,mg,,mg,2024.0,mg,0.008096,g
+0000000000065,Mezcla simulado 065,frutos secos|envasados,100,597.08,kcal,19.228,g,20.24,g,4.048,g,49.588,g,4.048,mg
+0000000000066,Cereal simulado 066,cereales|envasados,100,1568.20504,kj,10130.0,mg,70910.0,mg,12156.0,mg,5065.0,mg,0.15195,g
+0000000000067,Yogur simulado 067,lacteos|envasados,100,70.91,kcal,6.078,g,8.104,g,6.078,g,2.026,g,50.65,mg
+0000000000068,Galletita simulado 068,galletitas|envasados,100,1864.89248,kj,7091.0,mg,65845.0,mg,20260.0,mg,17221.0,mg,0.25325,g
+0000000000069,Lenteja simulado 069,legumbres|envasados,100,334.29,kcal,23.299,g,55.715,g,2.026,g,2.026,g,8.104,mg
+0000000000070,Mezcla simulado 070,frutos secos|envasados,100,2500.65128,kj,19247.0,mg,20260.0,mg,4052.0,mg,49637.0,mg,0.004052,g
+0000000000071,Cereal simulado 071,cereales|envasados,100,375.18,kcal,10.14,g,70.98,g,,g,5.07,g,152.1,mg
+0000000000072,Yogur simulado 072,lacteos|envasados,100,296.98032,kj,6084.0,mg,8112.0,mg,6084.0,mg,2028.0,mg,0.0507,g
+0000000000073,Galletita simulado 073,galletitas|envasados,100,446.16,kcal,7.098,g,65.91,g,20.28,g,17.238,g,253.5,mg
+0000000000074,Lenteja simulado 074,legumbres|envasados,100,1400.05008,kj,23322.0,mg,55770.0,mg,2028.0,mg,2028.0,mg,0.008112,g
+0000000000075,Mezcla simulado 075,frutos secos|envasados,100,598.26,kcal,19.266,g,20.28,g,4.056,g,49.686,g,4.056,mg
+0000000000076,Cereal simulado 076,cereales|envasados,100,1571.3012,kj,10150.0,mg,71050.0,mg,12180.0,mg,5075.0,mg,0.15225,g
+0000000000077,Yogur simulado 077,lacteos|envasados,100,71.05,kcal,6.09,g,8.12,g,6.09,g,2.03,g,50.75,mg
+0000000000078,Galletita simulado 078,galletitas|envasados,100,1868.5744,kj,7105.0,mg,65975.0,mg,,mg,17255.0,mg,0.25375,g
+0000000000079,Lenteja simulado 079,legumbres|envasados,100,334.95,kcal,23.345,g,55.825,g,2.03,g,2.03,g,8.12,mg
+0000000000080,Mezcla simulado 080,frutos secos|envasados,100,2505.5884,kj,19285.0,mg,20300.0,mg,4060.0,mg,49735.0,mg,0.00406,g
+0000000000081,Cereal simulado 081,cereales|envasados,100,375.92,kcal,10.16,g,71.12,g,12.192,g,5.08,g,152.4,mg
+0000000000082,Yogur simulado 082,lacteos|envasados,100,297.56608,kj,6096.0,mg,8128.0,mg,6096.0,mg,2032.0,mg,0.0508,g
+0000000000083,Galletita simulado 083,galletitas|envasados,100,447.04,kcal,7.112,g,66.04,g,20.32,g,17.272,g,254.0,mg
+0000000000084,Lenteja simulado 084,legumbres|envasados,100,1402.81152,kj,23368.0,mg,55880.0,mg,2032.0,mg,2032.0,mg,0.008128,g
+0000000000085,Mezcla simulado 085,frutos secos|envasados,100,599.44,kcal,19.304,g,20.32,g,,g,49.784,g,4.064,mg
+0000000000086,Cereal simulado 086,cereales|envasados,100,1574.39736,kj,10170.0,mg,71190.0,mg,12204.0,mg,5085.0,mg,0.15255,g
+0000000000087,Yogur simulado 087,lacteos|envasados,100,71.19,kcal,6.102,g,8.136,g,6.102,g,2.034,g,50.85,mg
+0000000000088,Galletita simulado 088,galletitas|envasados,100,1872.25632,kj,7119.0,mg,66105.0,mg,20340.0,mg,17289.0,mg,0.25425,g
+0000000000089,Lenteja simulado 089,legumbres|envasados,100,335.61,kcal,23.391,g,55.935,g,2.034,g,2.034,g,8.136,mg
+0000000000090,Mezcla simulado 090,frutos secos|envasados,100,2510.52552,kj,19323.0,mg,20340.0,mg,4068.0,mg,49833.0,mg,0.004068,g
+0000000000091,Cereal simulado 091,cereales|envasados,100,376.66,kcal,10.18,g,71.26,g,12.216,g,5.09,g,152.7,mg
+0000000000092,Yogur simulado 092,lacteos|envasados,100,298.15184,kj,6108.0,mg,8144.0,mg,,mg,2036.0,mg,0.0509,g
+0000000000093,Galletita simulado 093,galletitas|envasados,100,447.92,kcal,7.126,g,66.17,g,20.36,g,17.306,g,254.5,mg
+0000000000094,Lenteja simulado 094,legumbres|envasados,100,1405.57296,kj,23414.0,mg,55990.0,mg,2036.0,mg,2036.0,mg,0.008144,g
+0000000000095,Mezcla simulado 095,frutos secos|envasados,100,600.62,kcal,19.342,g,20.36,g,4.072,g,49.882,g,4.072,mg
+0000000000096,Cereal simulado 096,cereales|envasados,100,1577.49352,kj,10190.0,mg,71330.0,mg,12228.0,mg,5095.0,mg,0.15285,g
+0000000000097,Yogur simulado 097,lacteos|envasados,100,71.33,kcal,6.114,g,8.152,g,6.114,g,2.038,g,50.95,mg
+0000000000098,Galletita simulado 098,galletitas|envasados,100,1875.93824,kj,7133.0,mg,66235.0,mg,20380.0,mg,17323.0,mg,0.25475,g
+0000000000099,Lenteja simulado 099,legumbres|envasados,100,336.27,kcal,23.437,g,56.045,g,,g,2.038,g,8.152,mg
+0000000000100,Mezcla simulado 100,frutos secos|envasados,100,2515.46264,kj,19361.0,mg,20380.0,mg,4076.0,mg,49931.0,mg,0.004076,g
+0000000000101,Cereal simulado 101,cereales|envasados,100,377.4,kcal,10.2,g,71.4,g,12.24,g,5.1,g,153.0,mg
+0000000000102,Yogur simulado 102,lacteos|envasados,100,298.7376,kj,6120.0,mg,8160.0,mg,6120.0,mg,2040.0,mg,0.051,g
+0000000000103,Galletita simulado 103,galletitas|envasados,100,448.8,kcal,7.14,g,66.3,g,20.4,g,17.34,g,255.0,mg
+0000000000104,Lenteja simulado 104,legumbres|envasados,100,1408.3344,kj,23460.0,mg,56100.0,mg,2040.0,mg,2040.0,mg,0.00816,g
+0000000000105,Mezcla simulado 105,frutos secos|envasados,100,601.8,kcal,19.38,g,20.4,g,4.08,g,49.98,g,4.08,mg
+0000000000106,Cereal simulado 106,cereales|envasados,100,1580.58968,kj,10210.0,mg,71470.0,mg,,mg,5105.0,mg,0.15315,g
+0000000000107,Yogur simulado 107,lacteos|envasados,100,71.47,kcal,6.126,g,8.168,g,6.126,g,2.042,g,51.05,mg
+0000000000108,Galletita simulado 108,galletitas|envasados,100,1879.62016,kj,7147.0,mg,66365.0,mg,20420.0,mg,17357.0,mg,0.25525,g
+0000000000109,Lenteja simulado 109,legumbres|envasados,100,336.93,kcal,23.483,g,56.155,g,2.042,g,2.042,g,8.168,mg
+0000000000110,Mezcla simulado 110,frutos secos|envasados,100,2520.39976,kj,19399.0,mg,20420.0,mg,4084.0,mg,50029.0,mg,0.004084,g
+0000000000111,Cereal simulado 111,cereales|envasados,100,378.14,kcal,10.22,g,71.54,g,12.264,g,5.11,g,153.3,mg
+0000000000112,Yogur simulado 112,lacteos|envasados,100,299.32336,kj,6132.0,mg,8176.0,mg,6132.0,mg,2044.0,mg,0.0511,g
+0000000000113,Galletita simulado 113,galletitas|envasados,100,449.68,kcal,7.154,g,66.43,g,,g,17.374,g,255.5,mg
+0000000000114,Lenteja simulado 114,legumbres|envasados,100,1411.09584,kj,23506.0,mg,56210.0,mg,2044.0,mg,2044.0,mg,0.008176,g
+0000000000115,Mezcla simulado 115,frutos secos|envasados,100,602.98,kcal,19.418,g,20.44,g,4.088,g,50.078,g,4.088,mg
+0000000000116,Cereal simulado 116,cereales|envasados,100,1583.68584,kj,10230.0,mg,71610.0,mg,12276.0,mg,5115.0,mg,0.15345,g
+0000000000117,Yogur simulado 117,lacteos|envasados,100,71.61,kcal,6.138,g,8.184,g,6.138,g,2.046,g,51.15,mg
+0000000000118,Galletita simulado 118,galletitas|envasados,100,1883.30208,kj,7161.0,mg,66495.0,mg,20460.0,mg,17391.0,mg,0.25575,g
+0000000000119,Lenteja simulado 119,legumbres|envasados,100,337.59,kcal,23.529,g,56.265,g,2.046,g,2.046,g,8.184,mg
+0000000000120,Mezcla simulado 120,frutos secos|envasados,100,2525.33688,kj,19437.0,mg,20460.0,mg,,mg,50127.0,mg,0.004092,g
+0000000000121,Cereal simulado 121,cereales|envasados,100,378.88,kcal,10.24,g,71.68,g,12.288,g,5.12,g,153.6,mg
+0000000000122,Yogur simulado 122,lacteos|envasados,100,299.90912,kj,6144.0,mg,8192.0,mg,6144.0,mg,2048.0,mg,0.0512,g
+0000000000123,Galletita simulado 123,galletitas|envasados,100,450.56,kcal,7.168,g,66.56,g,20.48,g,17.408,g,256.0,mg
+0000000000124,Lenteja simulado 124,legumbres|envasados,100,1413.85728,kj,23552.0,mg,56320.0,mg,2048.0,mg,2048.0,mg,0.008192,g
+0000000000125,Mezcla simulado 125,frutos secos|envasados,100,604.16,kcal,19.456,g,20.48,g,4.096,g,50.176,g,4.096,mg
+0000000000126,Cereal simulado 126,cereales|envasados,100,1586.782,kj,10250.0,mg,71750.0,mg,12300.0,mg,5125.0,mg,0.15375,g
+0000000000127,Yogur simulado 127,lacteos|envasados,100,71.75,kcal,6.15,g,8.2,g,,g,2.05,g,51.25,mg
+0000000000128,Galletita simulado 128,galletitas|envasados,100,1886.984,kj,7175.0,mg,66625.0,mg,20500.0,mg,17425.0,mg,0.25625,g
+0000000000129,Lenteja simulado 129,legumbres|envasados,100,338.25,kcal,23.575,g,56.375,g,2.05,g,2.05,g,8.2,mg
+0000000000130,Mezcla simulado 130,frutos secos|envasados,100,2530.274,kj,19475.0,mg,20500.0,mg,4100.0,mg,50225.0,mg,0.0041,g
+0000000000131,Cereal simulado 131,cereales|envasados,100,379.62,kcal,10.26,g,71.82,g,12.312,g,5.13,g,153.9,mg
+0000000000132,Yogur simulado 132,lacteos|envasados,100,300.49488,kj,6156.0,mg,8208.0,mg,6156.0,mg,2052.0,mg,0.0513,g
+0000000000133,Galletita simulado 133,galletitas|envasados,100,451.44,kcal,7.182,g,66.69,g,20.52,g,17.442,g,256.5,mg
+0000000000134,Lenteja simulado 134,legumbres|envasados,100,1416.61872,kj,23598.0,mg,56430.0,mg,,mg,2052.0,mg,0.008208,g
+0000000000135,Mezcla simulado 135,frutos secos|envasados,100,605.34,kcal,19.494,g,20.52,g,4.104,g,50.274,g,4.104,mg
+0000000000136,Cereal simulado 136,cereales|envasados,100,1589.87816,kj,10270.0,mg,71890.0,mg,12324.0,mg,5135.0,mg,0.15405,g
+0000000000137,Yogur simulado 137,lacteos|envasados,100,71.89,kcal,6.162,g,8.216,g,6.162,g,2.054,g,51.35,mg
+0000000000138,Galletita simulado 138,galletitas|envasados,100,1890.66592,kj,7189.0,mg,66755.0,mg,20540.0,mg,17459.0,mg,0.25675,g
+0000000000139,Lenteja simulado 139,legumbres|envasados,100,338.91,kcal,23.621,g,56.485,g,2.054,g,2.054,g,8.216,mg
+0000000000140,Mezcla simulado 140,frutos secos|envasados,100,2535.21112,kj,19513.0,mg,20540.0,mg,4108.0,mg,50323.0,mg,0.004108,g
+0000000000141,Cereal simulado 141,cereales|envasados,100,380.36,kcal,10.28,g,71.96,g,,g,5.14,g,154.2,mg
+0000000000142,Yogur simulado 142,lacteos|envasados,100,301.08064,kj,6168.0,mg,8224.0,mg,6168.0,mg,2056.0,mg,0.0514,g
+0000000000143,Galletita simulado 143,galletitas|envasados,100,452.32,kcal,7.196,g,66.82,g,20.56,g,17.476,g,257.0,mg
+0000000000144,Lenteja simulado 144,legumbres|envasados,100,1419.38016,kj,23644.0,mg,56540.0,mg,2056.0,mg,2056.0,mg,0.008224,g
+0000000000145,Mezcla simulado 145,frutos secos|envasados,100,606.52,kcal,19.532,g,20.56,g,4.112,g,50.372,g,4.112,mg
+0000000000146,Cereal simulado 146,cereales|envasados,100,1592.97432,kj,10290.0,mg,72030.0,mg,12348.0,mg,5145.0,mg,0.15435,g
+0000000000147,Yogur simulado 147,lacteos|envasados,100,72.03,kcal,6.174,g,8.232,g,6.174,g,2.058,g,51.45,mg
+0000000000148,Galletita simulado 148,galletitas|envasados,100,1894.34784,kj,7203.0,mg,66885.0,mg,,mg,17493.0,mg,0.25725,g
+0000000000149,Lenteja simulado 149,legumbres|envasados,100,339.57,kcal,23.667,g,56.595,g,2.058,g,2.058,g,8.232,mg
+0000000000150,Mezcla simulado 150,frutos secos|envasados,100,2540.14824,kj,19551.0,mg,20580.0,mg,4116.0,mg,50421.0,mg,0.004116,g
+0000000000151,Cereal simulado 151,cereales|envasados,100,381.1,kcal,10.3,g,72.1,g,12.36,g,5.15,g,154.5,mg
+0000000000152,Yogur simulado 152,lacteos|envasados,100,301.6664,kj,6180.0,mg,8240.0,mg,6180.0,mg,2060.0,mg,0.0515,g
+0000000000153,Galletita simulado 153,galletitas|envasados,100,453.2,kcal,7.21,g,66.95,g,20.6,g,17.51,g,257.5,mg
+0000000000154,Lenteja simulado 154,legumbres|envasados,100,1422.1416,kj,23690.0,mg,56650.0,mg,2060.0,mg,2060.0,mg,0.00824,g
+0000000000155,Mezcla simulado 155,frutos secos|envasados,100,607.7,kcal,19.57,g,20.6,g,,g,50.47,g,4.12,mg
+0000000000156,Cereal simulado 156,cereales|envasados,100,1596.07048,kj,10310.0,mg,72170.0,mg,12372.0,mg,5155.0,mg,0.15465,g
+0000000000157,Yogur simulado 157,lacteos|envasados,100,72.17,kcal,6.186,g,8.248,g,6.186,g,2.062,g,51.55,mg
+0000000000158,Galletita simulado 158,galletitas|envasados,100,1898.02976,kj,7217.0,mg,67015.0,mg,20620.0,mg,17527.0,mg,0.25775,g
+0000000000159,Lenteja simulado 159,legumbres|envasados,100,340.23,kcal,23.713,g,56.705,g,2.062,g,2.062,g,8.248,mg
+0000000000160,Mezcla simulado 160,frutos secos|envasados,100,2545.08536,kj,19589.0,mg,20620.0,mg,4124.0,mg,50519.0,mg,0.004124,g
+0000000000161,Cereal simulado 161,cereales|envasados,100,381.84,kcal,10.32,g,72.24,g,12.384,g,5.16,g,154.8,mg
+0000000000162,Yogur simulado 162,lacteos|envasados,100,302.25216,kj,6192.0,mg,8256.0,mg,,mg,2064.0,mg,0.0516,g
+0000000000163,Galletita simulado 163,galletitas|envasados,100,454.08,kcal,7.224,g,67.08,g,20.64,g,17.544,g,258.0,mg
+0000000000164,Lenteja simulado 164,legumbres|envasados,100,1424.90304,kj,23736.0,mg,56760.0,mg,2064.0,mg,2064.0,mg,0.008256,g
+0000000000165,Mezcla simulado 165,frutos secos|envasados,100,608.88,kcal,19.608,g,20.64,g,4.128,g,50.568,g,4.128,mg
+0000000000166,Cereal simulado 166,cereales|envasados,100,1599.16664,kj,10330.0,mg,72310.0,mg,12396.0,mg,5165.0,mg,0.15495,g
+0000000000167,Yogur simulado 167,lacteos|envasados,100,72.31,kcal,6.198,g,8.264,g,6.198,g,2.066,g,51.65,mg
+0000000000168,Galletita simulado 168,galletitas|envasados,100,1901.71168,kj,7231.0,mg,67145.0,mg,20660.0,mg,17561.0,mg,0.25825,g
+0000000000169,Lenteja simulado 169,legumbres|envasados,100,340.89,kcal,23.759,g,56.815,g,,g,2.066,g,8.264,mg
+0000000000170,Mezcla simulado 170,frutos secos|envasados,100,2550.02248,kj,19627.0,mg,20660.0,mg,4132.0,mg,50617.0,mg,0.004132,g
+0000000000171,Cereal simulado 171,cereales|envasados,100,382.58,kcal,10.34,g,72.38,g,12.408,g,5.17,g,155.1,mg
+0000000000172,Yogur simulado 172,lacteos|envasados,100,302.83792,kj,6204.0,mg,8272.0,mg,6204.0,mg,2068.0,mg,0.0517,g
+0000000000173,Galletita simulado 173,galletitas|envasados,100,454.96,kcal,7.238,g,67.21,g,20.68,g,17.578,g,258.5,mg
+0000000000174,Lenteja simulado 174,legumbres|envasados,100,1427.66448,kj,23782.0,mg,56870.0,mg,2068.0,mg,2068.0,mg,0.008272,g
+0000000000175,Mezcla simulado 175,frutos secos|envasados,100,610.06,kcal,19.646,g,20.68,g,4.136,g,50.666,g,4.136,mg
+0000000000176,Cereal simulado 176,cereales|envasados,100,1602.2628,kj,10350.0,mg,72450.0,mg,,mg,5175.0,mg,0.15525,g
+0000000000177,Yogur simulado 177,lacteos|envasados,100,72.45,kcal,6.21,g,8.28,g,6.21,g,2.07,g,51.75,mg
+0000000000178,Galletita simulado 178,galletitas|envasados,100,1905.3936,kj,7245.0,mg,67275.0,mg,20700.0,mg,17595.0,mg,0.25875,g
+0000000000179,Lenteja simulado 179,legumbres|envasados,100,341.55,kcal,23.805,g,56.925,g,2.07,g,2.07,g,8.28,mg
+0000000000180,Mezcla simulado 180,frutos secos|envasados,100,2554.9596,kj,19665.0,mg,20700.0,mg,4140.0,mg,50715.0,mg,0.00414,g
+0000000000181,Cereal simulado 181,cereales|envasados,100,383.32,kcal,10.36,g,72.52,g,12.432,g,5.18,g,155.4,mg
+0000000000182,Yogur simulado 182,lacteos|envasados,100,303.42368,kj,6216.0,mg,8288.0,mg,6216.0,mg,2072.0,mg,0.0518,g
+0000000000183,Galletita simulado 183,galletitas|envasados,100,455.84,kcal,7.252,g,67.34,g,,g,17.612,g,259.0,mg
+0000000000184,Lenteja simulado 184,legumbres|envasados,100,1430.42592,kj,23828.0,mg,56980.0,mg,2072.0,mg,2072.0,mg,0.008288,g
+0000000000185,Mezcla simulado 185,frutos secos|envasados,100,611.24,kcal,19.684,g,20.72,g,4.144,g,50.764,g,4.144,mg
+0000000000186,Cereal simulado 186,cereales|envasados,100,1605.35896,kj,10370.0,mg,72590.0,mg,12444.0,mg,5185.0,mg,0.15555,g
+0000000000187,Yogur simulado 187,lacteos|envasados,100,72.59,kcal,6.222,g,8.296,g,6.222,g,2.074,g,51.85,mg
+0000000000188,Galletita simulado 188,galletitas|envasados,100,1909.07552,kj,7259.0,mg,67405.0,mg,20740.0,mg,17629.0,mg,0.25925,g
+0000000000189,Lenteja simulado 189,legumbres|envasados,100,342.21,kcal,23.851,g,57.035,g,2.074,g,2.074,g,8.296,mg
+0000000000190,Mezcla simulado 190,frutos secos|envasados,100,2559.89672,kj,19703.0,mg,20740.0,mg,,mg,50813.0,mg,0.004148,g
+0000000000191,Cereal simulado 191,cereales|envasados,100,384.06,kcal,10.38,g,72.66,g,12.456,g,5.19,g,155.7,mg
+0000000000192,Yogur simulado 192,lacteos|envasados,100,304.00944,kj,6228.0,mg,8304.0,mg,6228.0,mg,2076.0,mg,0.0519,g
+0000000000193,Galletita simulado 193,galletitas|envasados,100,456.72,kcal,7.266,g,67.47,g,20.76,g,17.646,g,259.5,mg
+0000000000194,Lenteja simulado 194,legumbres|envasados,100,1433.18736,kj,23874.0,mg,57090.0,mg,2076.0,mg,2076.0,mg,0.008304,g
+0000000000195,Mezcla simulado 195,frutos secos|envasados,100,612.42,kcal,19.722,g,20.76,g,4.152,g,50.862,g,4.152,mg
+0000000000196,Cereal simulado 196,cereales|envasados,100,1608.45512,kj,10390.0,mg,72730.0,mg,12468.0,mg,5195.0,mg,0.15585,g
+0000000000197,Yogur simulado 197,lacteos|envasados,100,72.73,kcal,6.234,g,8.312,g,,g,2.078,g,51.95,mg
+0000000000198,Galletita simulado 198,galletitas|envasados,100,1912.75744,kj,7273.0,mg,67535.0,mg,20780.0,mg,17663.0,mg,0.25975,g
+0000000000199,Lenteja simulado 199,legumbres|envasados,100,342.87,kcal,23.897,g,57.145,g,2.078,g,2.078,g,8.312,mg
+0000000000200,Mezcla simulado 200,frutos secos|envasados,100,2564.83384,kj,19741.0,mg,20780.0,mg,4156.0,mg,50911.0,mg,0.004156,g
+0000000000201,Cereal simulado 201,cereales|envasados,100,384.8,kcal,10.4,g,72.8,g,12.48,g,5.2,g,156.0,mg
+0000000000202,Yogur simulado 202,lacteos|envasados,100,304.5952,kj,6240.0,mg,8320.0,mg,6240.0,mg,2080.0,mg,0.052,g
+0000000000203,Galletita simulado 203,galletitas|envasados,100,457.6,kcal,7.28,g,67.6,g,20.8,g,17.68,g,260.0,mg
+0000000000204,Lenteja simulado 204,legumbres|envasados,100,1435.9488,kj,23920.0,mg,57200.0,mg,,mg,2080.0,mg,0.00832,g
+0000000000205,Mezcla simulado 205,frutos secos|envasados,100,613.6,kcal,19.76,g,20.8,g,4.16,g,50.96,g,4.16,mg
+0000000000206,Cereal simulado 206,cereales|envasados,100,1611.55128,kj,10410.0,mg,72870.0,mg,12492.0,mg,5205.0,mg,0.15615,g
+0000000000207,Yogur simulado 207,lacteos|envasados,100,72.87,kcal,6.246,g,8.328,g,6.246,g,2.082,g,52.05,mg
+0000000000208,Galletita simulado 208,galletitas|envasados,100,1916.43936,kj,7287.0,mg,67665.0,mg,20820.0,mg,17697.0,mg,0.26025,g
+0000000000209,Lenteja simulado 209,legumbres|envasados,100,343.53,kcal,23.943,g,57.255,g,2.082,g,2.082,g,8.328,mg
+0000000000210,Mezcla simulado 210,frutos secos|envasados,100,2569.77096,kj,19779.0,mg,20820.0,mg,4164.0,mg,51009.0,mg,0.004164,g
+0000000000211,Cereal simulado 211,cereales|envasados,100,385.54,kcal,10.42,g,72.94,g,,g,5.21,g,156.3,mg
+0000000000212,Yogur simulado 212,lacteos|envasados,100,305.18096,kj,6252.0,mg,8336.0,mg,6252.0,mg,2084.0,mg,0.0521,g
+0000000000213,Galletita simulado 213,galletitas|envasados,100,458.48,kcal,7.294,g,67.73,g,20.84,g,17.714,g,260.5,mg
+0000000000214,Lenteja simulado 214,legumbres|envasados,100,1438.71024,kj,23966.0,mg,57310.0,mg,2084.0,mg,2084.0,mg,0.008336,g
+0000000000215,Mezcla simulado 215,frutos secos|envasados,100,614.78,kcal,19.798,g,20.84,g,4.168,g,51.058,g,4.168,mg
+0000000000216,Cereal simulado 216,cereales|envasados,100,1614.64744,kj,10430.0,mg,73010.0,mg,12516.0,mg,5215.0,mg,0.15645,g
+0000000000217,Yogur simulado 217,lacteos|envasados,100,73.01,kcal,6.258,g,8.344,g,6.258,g,2.086,g,52.15,mg
+0000000000218,Galletita simulado 218,galletitas|envasados,100,1920.12128,kj,7301.0,mg,67795.0,mg,,mg,17731.0,mg,0.26075,g
+0000000000219,Lenteja simulado 219,legumbres|envasados,100,344.19,kcal,23.989,g,57.365,g,2.086,g,2.086,g,8.344,mg
+0000000000220,Mezcla simulado 220,frutos secos|envasados,100,2574.70808,kj,19817.0,mg,20860.0,mg,4172.0,mg,51107.0,mg,0.004172,g
+0000000000221,Cereal simulado 221,cereales|envasados,100,386.28,kcal,10.44,g,73.08,g,12.528,g,5.22,g,156.6,mg
+0000000000222,Yogur simulado 222,lacteos|envasados,100,305.76672,kj,6264.0,mg,8352.0,mg,6264.0,mg,2088.0,mg,0.0522,g
+0000000000223,Galletita simulado 223,galletitas|envasados,100,459.36,kcal,7.308,g,67.86,g,20.88,g,17.748,g,261.0,mg
+0000000000224,Lenteja simulado 224,legumbres|envasados,100,1441.47168,kj,24012.0,mg,57420.0,mg,2088.0,mg,2088.0,mg,0.008352,g
+0000000000225,Mezcla simulado 225,frutos secos|envasados,100,615.96,kcal,19.836,g,20.88,g,,g,51.156,g,4.176,mg
+0000000000226,Cereal simulado 226,cereales|envasados,100,1617.7436,kj,10450.0,mg,73150.0,mg,12540.0,mg,5225.0,mg,0.15675,g
+0000000000227,Yogur simulado 227,lacteos|envasados,100,73.15,kcal,6.27,g,8.36,g,6.27,g,2.09,g,52.25,mg
+0000000000228,Galletita simulado 228,galletitas|envasados,100,1923.8032,kj,7315.0,mg,67925.0,mg,20900.0,mg,17765.0,mg,0.26125,g
+0000000000229,Lenteja simulado 229,legumbres|envasados,100,344.85,kcal,24.035,g,57.475,g,2.09,g,2.09,g,8.36,mg
+0000000000230,Mezcla simulado 230,frutos secos|envasados,100,2579.6452,kj,19855.0,mg,20900.0,mg,4180.0,mg,51205.0,mg,0.00418,g
+0000000000231,Cereal simulado 231,cereales|envasados,100,387.02,kcal,10.46,g,73.22,g,12.552,g,5.23,g,156.9,mg
+0000000000232,Yogur simulado 232,lacteos|envasados,100,306.35248,kj,6276.0,mg,8368.0,mg,,mg,2092.0,mg,0.0523,g
+0000000000233,Galletita simulado 233,galletitas|envasados,100,460.24,kcal,7.322,g,67.99,g,20.92,g,17.782,g,261.5,mg
+0000000000234,Lenteja simulado 234,legumbres|envasados,100,1444.23312,kj,24058.0,mg,57530.0,mg,2092.0,mg,2092.0,mg,0.008368,g
+0000000000235,Mezcla simulado 235,frutos secos|envasados,100,617.14,kcal,19.874,g,20.92,g,4.184,g,51.254,g,4.184,mg
+0000000000236,Cereal simulado 236,cereales|envasados,100,1620.83976,kj,10470.0,mg,73290.0,mg,12564.0,mg,5235.0,mg,0.15705,g
+0000000000237,Yogur simulado 237,lacteos|envasados,100,73.29,kcal,6.282,g,8.376,g,6.282,g,2.094,g,52.35,mg
+0000000000238,Galletita simulado 238,galletitas|envasados,100,1927.48512,kj,7329.0,mg,68055.0,mg,20940.0,mg,17799.0,mg,0.26175,g
+0000000000239,Lenteja simulado 239,legumbres|envasados,100,345.51,kcal,24.081,g,57.585,g,,g,2.094,g,8.376,mg
+0000000000240,Mezcla simulado 240,frutos secos|envasados,100,2584.58232,kj,19893.0,mg,20940.0,mg,4188.0,mg,51303.0,mg,0.004188,g
+0000000000241,Cereal simulado 241,cereales|envasados,100,387.76,kcal,10.48,g,73.36,g,12.576,g,5.24,g,157.2,mg
+0000000000242,Yogur simulado 242,lacteos|envasados,100,306.93824,kj,6288.0,mg,8384.0,mg,6288.0,mg,2096.0,mg,0.0524,g
+0000000000243,Galletita simulado 243,galletitas|envasados,100,461.12,kcal,7.336,g,68.12,g,20.96,g,17.816,g,262.0,mg
+0000000000244,Lenteja simulado 244,legumbres|envasados,100,1446.99456,kj,24104.0,mg,57640.0,mg,2096.0,mg,2096.0,mg,0.008384,g
+0000000000245,Mezcla simulado 245,frutos secos|envasados,100,618.32,kcal,19.912,g,20.96,g,4.192,g,51.352,g,4.192,mg
+0000000000246,Cereal simulado 246,cereales|envasados,100,1623.93592,kj,10490.0,mg,73430.0,mg,,mg,5245.0,mg,0.15735,g
+0000000000247,Yogur simulado 247,lacteos|envasados,100,73.43,kcal,6.294,g,8.392,g,6.294,g,2.098,g,52.45,mg
+0000000000248,Galletita simulado 248,galletitas|envasados,100,1931.16704,kj,7343.0,mg,68185.0,mg,20980.0,mg,17833.0,mg,0.26225,g
+0000000000249,Lenteja simulado 249,legumbres|envasados,100,346.17,kcal,24.127,g,57.695,g,2.098,g,2.098,g,8.392,mg
+0000000000250,Mezcla simulado 250,frutos secos|envasados,100,2589.51944,kj,19931.0,mg,20980.0,mg,4196.0,mg,51401.0,mg,0.004196,g
+0000000000251,Cereal simulado 251,cereales|envasados,100,388.5,kcal,10.5,g,73.5,g,12.6,g,5.25,g,157.5,mg
+0000000000252,Yogur simulado 252,lacteos|envasados,100,307.524,kj,6300.0,mg,8400.0,mg,6300.0,mg,2100.0,mg,0.0525,g
+0000000000253,Galletita simulado 253,galletitas|envasados,100,462.0,kcal,7.35,g,68.25,g,,g,17.85,g,262.5,mg
+0000000000254,Lenteja simulado 254,legumbres|envasados,100,1449.756,kj,24150.0,mg,57750.0,mg,2100.0,mg,2100.0,mg,0.0084,g
+0000000000255,Mezcla simulado 255,frutos secos|envasados,100,619.5,kcal,19.95,g,21.0,g,4.2,g,51.45,g,4.2,mg
+0000000000256,Cereal simulado 256,cereales|envasados,100,1627.03208,kj,10510.0,mg,73570.0,mg,12612.0,mg,5255.0,mg,0.15765,g
+0000000000257,Yogur simulado 257,lacteos|envasados,100,73.57,kcal,6.306,g,8.408,g,6.306,g,2.102,g,52.55,mg
+0000000000258,Galletita simulado 258,galletitas|envasados,100,1934.84896,kj,7357.0,mg,68315.0,mg,21020.0,mg,17867.0,mg,0.26275,g
+0000000000259,Lenteja simulado 259,legumbres|envasados,100,346.83,kcal,24.173,g,57.805,g,2.102,g,2.102,g,8.408,mg
+0000000000260,Mezcla simulado 260,frutos secos|envasados,100,2594.45656,kj,19969.0,mg,21020.0,mg,,mg,51499.0,mg,0.004204,g
+0000000000261,Cereal simulado 261,cereales|envasados,100,389.24,kcal,10.52,g,73.64,g,12.624,g,5.26,g,157.8,mg
+0000000000262,Yogur simulado 262,lacteos|envasados,100,308.10976,kj,6312.0,mg,8416.0,mg,6312.0,mg,2104.0,mg,0.0526,g
+0000000000263,Galletita simulado 263,galletitas|envasados,100,462.88,kcal,7.364,g,68.38,g,21.04,g,17.884,g,263.0,mg
+0000000000264,Lenteja simulado 264,legumbres|envasados,100,1452.51744,kj,24196.0,mg,57860.0,mg,2104.0,mg,2104.0,mg,0.008416,g
+0000000000265,Mezcla simulado 265,frutos secos|envasados,100,620.68,kcal,19.988,g,21.04,g,4.208,g,51.548,g,4.208,mg
+0000000000266,Cereal simulado 266,cereales|envasados,100,1630.12824,kj,10530.0,mg,73710.0,mg,12636.0,mg,5265.0,mg,0.15795,g
+0000000000267,Yogur simulado 267,lacteos|envasados,100,73.71,kcal,6.318,g,8.424,g,,g,2.106,g,52.65,mg
+0000000000268,Galletita simulado 268,galletitas|envasados,100,1938.53088,kj,7371.0,mg,68445.0,mg,21060.0,mg,17901.0,mg,0.26325,g
+0000000000269,Lenteja simulado 269,legumbres|envasados,100,347.49,kcal,24.219,g,57.915,g,2.106,g,2.106,g,8.424,mg
+0000000000270,Mezcla simulado 270,frutos secos|envasados,100,2599.39368,kj,20007.0,mg,21060.0,mg,4212.0,mg,51597.0,mg,0.004212,g
+0000000000271,Cereal simulado 271,cereales|envasados,100,389.98,kcal,10.54,g,73.78,g,12.648,g,5.27,g,158.1,mg
+0000000000272,Yogur simulado 272,lacteos|envasados,100,308.69552,kj,6324.0,mg,8432.0,mg,6324.0,mg,2108.0,mg,0.0527,g
+0000000000273,Galletita simulado 273,galletitas|envasados,100,463.76,kcal,7.378,g,68.51,g,21.08,g,17.918,g,263.5,mg
+0000000000274,Lenteja simulado 274,legumbres|envasados,100,1455.27888,kj,24242.0,mg,57970.0,mg,,mg,2108.0,mg,0.008432,g
+0000000000275,Mezcla simulado 275,frutos secos|envasados,100,621.86,kcal,20.026,g,21.08,g,4.216,g,51.646,g,4.216,mg
+0000000000276,Cereal simulado 276,cereales|envasados,100,1633.2244,kj,10550.0,mg,73850.0,mg,12660.0,mg,5275.0,mg,0.15825,g
+0000000000277,Yogur simulado 277,lacteos|envasados,100,73.85,kcal,6.33,g,8.44,g,6.33,g,2.11,g,52.75,mg
+0000000000278,Galletita simulado 278,galletitas|envasados,100,1942.2128,kj,7385.0,mg,68575.0,mg,21100.0,mg,17935.0,mg,0.26375,g
+0000000000279,Lenteja simulado 279,legumbres|envasados,100,348.15,kcal,24.265,g,58.025,g,2.11,g,2.11,g,8.44,mg
+0000000000280,Mezcla simulado 280,frutos secos|envasados,100,2604.3308,kj,20045.0,mg,21100.0,mg,4220.0,mg,51695.0,mg,0.00422,g
+0000000000281,Cereal simulado 281,cereales|envasados,100,390.72,kcal,10.56,g,73.92,g,,g,5.28,g,158.4,mg
+0000000000282,Yogur simulado 282,lacteos|envasados,100,309.28128,kj,6336.0,mg,8448.0,mg,6336.0,mg,2112.0,mg,0.0528,g
+0000000000283,Galletita simulado 283,galletitas|envasados,100,464.64,kcal,7.392,g,68.64,g,21.12,g,17.952,g,264.0,mg
+0000000000284,Lenteja simulado 284,legumbres|envasados,100,1458.04032,kj,24288.0,mg,58080.0,mg,2112.0,mg,2112.0,mg,0.008448,g
+0000000000285,Mezcla simulado 285,frutos secos|envasados,100,623.04,kcal,20.064,g,21.12,g,4.224,g,51.744,g,4.224,mg
+0000000000286,Cereal simulado 286,cereales|envasados,100,1636.32056,kj,10570.0,mg,73990.0,mg,12684.0,mg,5285.0,mg,0.15855,g
+0000000000287,Yogur simulado 287,lacteos|envasados,100,73.99,kcal,6.342,g,8.456,g,6.342,g,2.114,g,52.85,mg
+0000000000288,Galletita simulado 288,galletitas|envasados,100,1945.89472,kj,7399.0,mg,68705.0,mg,,mg,17969.0,mg,0.26425,g
+0000000000289,Lenteja simulado 289,legumbres|envasados,100,348.81,kcal,24.311,g,58.135,g,2.114,g,2.114,g,8.456,mg
+0000000000290,Mezcla simulado 290,frutos secos|envasados,100,2609.26792,kj,20083.0,mg,21140.0,mg,4228.0,mg,51793.0,mg,0.004228,g
+0000000000291,Cereal simulado 291,cereales|envasados,100,391.46,kcal,10.58,g,74.06,g,12.696,g,5.29,g,158.7,mg
+0000000000292,Yogur simulado 292,lacteos|envasados,100,309.86704,kj,6348.0,mg,8464.0,mg,6348.0,mg,2116.0,mg,0.0529,g
+0000000000293,Galletita simulado 293,galletitas|envasados,100,465.52,kcal,7.406,g,68.77,g,21.16,g,17.986,g,264.5,mg
+0000000000294,Lenteja simulado 294,legumbres|envasados,100,1460.80176,kj,24334.0,mg,58190.0,mg,2116.0,mg,2116.0,mg,0.008464,g
+0000000000295,Mezcla simulado 295,frutos secos|envasados,100,624.22,kcal,20.102,g,21.16,g,,g,51.842,g,4.232,mg
+0000000000296,Cereal simulado 296,cereales|envasados,100,1639.41672,kj,10590.0,mg,74130.0,mg,12708.0,mg,5295.0,mg,0.15885,g
+0000000000297,Yogur simulado 297,lacteos|envasados,100,74.13,kcal,6.354,g,8.472,g,6.354,g,2.118,g,52.95,mg
+0000000000298,Galletita simulado 298,galletitas|envasados,100,1949.57664,kj,7413.0,mg,68835.0,mg,21180.0,mg,18003.0,mg,0.26475,g
+0000000000299,Lenteja simulado 299,legumbres|envasados,100,349.47,kcal,24.357,g,58.245,g,2.118,g,2.118,g,8.472,mg
+0000000000300,Mezcla simulado 300,frutos secos|envasados,100,2614.20504,kj,20121.0,mg,21180.0,mg,4236.0,mg,51891.0,mg,0.004236,g
+0000000000301,Cereal simulado 301,cereales|envasados,100,392.2,kcal,10.6,g,74.2,g,12.72,g,5.3,g,159.0,mg
+0000000000302,Yogur simulado 302,lacteos|envasados,100,310.4528,kj,6360.0,mg,8480.0,mg,,mg,2120.0,mg,0.053,g
+0000000000303,Galletita simulado 303,galletitas|envasados,100,466.4,kcal,7.42,g,68.9,g,21.2,g,18.02,g,265.0,mg
+0000000000304,Lenteja simulado 304,legumbres|envasados,100,1463.5632,kj,24380.0,mg,58300.0,mg,2120.0,mg,2120.0,mg,0.00848,g
+0000000000305,Mezcla simulado 305,frutos secos|envasados,100,625.4,kcal,20.14,g,21.2,g,4.24,g,51.94,g,4.24,mg
+0000000000306,Cereal simulado 306,cereales|envasados,100,1642.51288,kj,10610.0,mg,74270.0,mg,12732.0,mg,5305.0,mg,0.15915,g
+0000000000307,Yogur simulado 307,lacteos|envasados,100,74.27,kcal,6.366,g,8.488,g,6.366,g,2.122,g,53.05,mg
+0000000000308,Galletita simulado 308,galletitas|envasados,100,1953.25856,kj,7427.0,mg,68965.0,mg,21220.0,mg,18037.0,mg,0.26525,g
+0000000000309,Lenteja simulado 309,legumbres|envasados,100,350.13,kcal,24.403,g,58.355,g,,g,2.122,g,8.488,mg
+0000000000310,Mezcla simulado 310,frutos secos|envasados,100,2619.14216,kj,20159.0,mg,21220.0,mg,4244.0,mg,51989.0,mg,0.004244,g
+0000000000311,Cereal simulado 311,cereales|envasados,100,392.94,kcal,10.62,g,74.34,g,12.744,g,5.31,g,159.3,mg
+0000000000312,Yogur simulado 312,lacteos|envasados,100,311.03856,kj,6372.0,mg,8496.0,mg,6372.0,mg,2124.0,mg,0.0531,g
+0000000000313,Galletita simulado 313,galletitas|envasados,100,467.28,kcal,7.434,g,69.03,g,21.24,g,18.054,g,265.5,mg
+0000000000314,Lenteja simulado 314,legumbres|envasados,100,1466.32464,kj,24426.0,mg,58410.0,mg,2124.0,mg,2124.0,mg,0.008496,g
+0000000000315,Mezcla simulado 315,frutos secos|envasados,100,626.58,kcal,20.178,g,21.24,g,4.248,g,52.038,g,4.248,mg
+0000000000316,Cereal simulado 316,cereales|envasados,100,1645.60904,kj,10630.0,mg,74410.0,mg,,mg,5315.0,mg,0.15945,g
+0000000000317,Yogur simulado 317,lacteos|envasados,100,74.41,kcal,6.378,g,8.504,g,6.378,g,2.126,g,53.15,mg
+0000000000318,Galletita simulado 318,galletitas|envasados,100,1956.94048,kj,7441.0,mg,69095.0,mg,21260.0,mg,18071.0,mg,0.26575,g
+0000000000319,Lenteja simulado 319,legumbres|envasados,100,350.79,kcal,24.449,g,58.465,g,2.126,g,2.126,g,8.504,mg
+0000000000320,Mezcla simulado 320,frutos secos|envasados,100,2624.07928,kj,20197.0,mg,21260.0,mg,4252.0,mg,52087.0,mg,0.004252,g
+0000000000321,Cereal simulado 321,cereales|envasados,100,393.68,kcal,10.64,g,74.48,g,12.768,g,5.32,g,159.6,mg
+0000000000322,Yogur simulado 322,lacteos|envasados,100,311.62432,kj,6384.0,mg,8512.0,mg,6384.0,mg,2128.0,mg,0.0532,g
+0000000000323,Galletita simulado 323,galletitas|envasados,100,468.16,kcal,7.448,g,69.16,g,,g,18.088,g,266.0,mg
+0000000000324,Lenteja simulado 324,legumbres|envasados,100,1469.08608,kj,24472.0,mg,58520.0,mg,2128.0,mg,2128.0,mg,0.008512,g
+0000000000325,Mezcla simulado 325,frutos secos|envasados,100,627.76,kcal,20.216,g,21.28,g,4.256,g,52.136,g,4.256,mg
+0000000000326,Cereal simulado 326,cereales|envasados,100,1648.7052,kj,10650.0,mg,74550.0,mg,12780.0,mg,5325.0,mg,0.15975,g
+0000000000327,Yogur simulado 327,lacteos|envasados,100,74.55,kcal,6.39,g,8.52,g,6.39,g,2.13,g,53.25,mg
+0000000000328,Galletita simulado 328,galletitas|envasados,100,1960.6224,kj,7455.0,mg,69225.0,mg,21300.0,mg,18105.0,mg,0.26625,g
+0000000000329,Lenteja simulado 329,legumbres|envasados,100,351.45,kcal,24.495,g,58.575,g,2.13,g,2.13,g,8.52,mg
+0000000000330,Mezcla simulado 330,frutos secos|envasados,100,2629.0164,kj,20235.0,mg,21300.0,mg,,mg,52185.0,mg,0.00426,g
+0000000000331,Cereal simulado 331,cereales|envasados,100,394.42,kcal,10.66,g,74.62,g,12.792,g,5.33,g,159.9,mg
+0000000000332,Yogur simulado 332,lacteos|envasados,100,312.21008,kj,6396.0,mg,8528.0,mg,6396.0,mg,2132.0,mg,0.0533,g
+0000000000333,Galletita simulado 333,galletitas|envasados,100,469.04,kcal,7.462,g,69.29,g,21.32,g,18.122,g,266.5,mg
+0000000000334,Lenteja simulado 334,legumbres|envasados,100,1471.84752,kj,24518.0,mg,58630.0,mg,2132.0,mg,2132.0,mg,0.008528,g
+0000000000335,Mezcla simulado 335,frutos secos|envasados,100,628.94,kcal,20.254,g,21.32,g,4.264,g,52.234,g,4.264,mg
+0000000000336,Cereal simulado 336,cereales|envasados,100,1651.80136,kj,10670.0,mg,74690.0,mg,12804.0,mg,5335.0,mg,0.16005,g
+0000000000337,Yogur simulado 337,lacteos|envasados,100,74.69,kcal,6.402,g,8.536,g,,g,2.134,g,53.35,mg
+0000000000338,Galletita simulado 338,galletitas|envasados,100,1964.30432,kj,7469.0,mg,69355.0,mg,21340.0,mg,18139.0,mg,0.26675,g
+0000000000339,Lenteja simulado 339,legumbres|envasados,100,352.11,kcal,24.541,g,58.685,g,2.134,g,2.134,g,8.536,mg
+0000000000340,Mezcla simulado 340,frutos secos|envasados,100,2633.95352,kj,20273.0,mg,21340.0,mg,4268.0,mg,52283.0,mg,0.004268,g
+0000000000341,Cereal simulado 341,cereales|envasados,100,395.16,kcal,10.68,g,74.76,g,12.816,g,5.34,g,160.2,mg
+0000000000342,Yogur simulado 342,lacteos|envasados,100,312.79584,kj,6408.0,mg,8544.0,mg,6408.0,mg,2136.0,mg,0.0534,g
+0000000000343,Galletita simulado 343,galletitas|envasados,100,469.92,kcal,7.476,g,69.42,g,21.36,g,18.156,g,267.0,mg
+0000000000344,Lenteja simulado 344,legumbres|envasados,100,1474.60896,kj,24564.0,mg,58740.0,mg,,mg,2136.0,mg,0.008544,g
+0000000000345,Mezcla simulado 345,frutos secos|envasados,100,630.12,kcal,20.292,g,21.36,g,4.272,g,52.332,g,4.272,mg
+0000000000346,Cereal simulado 346,cereales|envasados,100,1654.89752,kj,10690.0,mg,74830.0,mg,12828.0,mg,5345.0,mg,0.16035,g
+0000000000347,Yogur simulado 347,lacteos|envasados,100,74.83,kcal,6.414,g,8.552,g,6.414,g,2.138,g,53.45,mg
+0000000000348,Galletita simulado 348,galletitas|envasados,100,1967.98624,kj,7483.0,mg,69485.0,mg,21380.0,mg,18173.0,mg,0.26725,g
+0000000000349,Lenteja simulado 349,legumbres|envasados,100,352.77,kcal,24.587,g,58.795,g,2.138,g,2.138,g,8.552,mg
+0000000000350,Mezcla simulado 350,frutos secos|envasados,100,2638.89064,kj,20311.0,mg,21380.0,mg,4276.0,mg,52381.0,mg,0.004276,g
+0000000000351,Cereal simulado 351,cereales|envasados,100,395.9,kcal,10.7,g,74.9,g,,g,5.35,g,160.5,mg
+0000000000352,Yogur simulado 352,lacteos|envasados,100,313.3816,kj,6420.0,mg,8560.0,mg,6420.0,mg,2140.0,mg,0.0535,g
+0000000000353,Galletita simulado 353,galletitas|envasados,100,470.8,kcal,7.49,g,69.55,g,21.4,g,18.19,g,267.5,mg
+0000000000354,Lenteja simulado 354,legumbres|envasados,100,1477.3704,kj,24610.0,mg,58850.0,mg,2140.0,mg,2140.0,mg,0.00856,g
+0000000000355,Mezcla simulado 355,frutos secos|envasados,100,631.3,kcal,20.33,g,21.4,g,4.28,g,52.43,g,4.28,mg
+0000000000356,Cereal simulado 356,cereales|envasados,100,1657.99368,kj,10710.0,mg,74970.0,mg,12852.0,mg,5355.0,mg,0.16065,g
+0000000000357,Yogur simulado 357,lacteos|envasados,100,74.97,kcal,6.426,g,8.568,g,6.426,g,2.142,g,53.55,mg
+0000000000358,Galletita simulado 358,galletitas|envasados,100,1971.66816,kj,7497.0,mg,69615.0,mg,,mg,18207.0,mg,0.26775,g
+0000000000359,Lenteja simulado 359,legumbres|envasados,100,353.43,kcal,24.633,g,58.905,g,2.142,g,2.142,g,8.568,mg
+0000000000360,Mezcla simulado 360,frutos secos|envasados,100,2643.82776,kj,20349.0,mg,21420.0,mg,4284.0,mg,52479.0,mg,0.004284,g
+0000000000361,Cereal simulado 361,cereales|envasados,100,396.64,kcal,10.72,g,75.04,g,12.864,g,5.36,g,160.8,mg
+0000000000362,Yogur simulado 362,lacteos|envasados,100,313.96736,kj,6432.0,mg,8576.0,mg,6432.0,mg,2144.0,mg,0.0536,g
+0000000000363,Galletita simulado 363,galletitas|envasados,100,471.68,kcal,7.504,g,69.68,g,21.44,g,18.224,g,268.0,mg
+0000000000364,Lenteja simulado 364,legumbres|envasados,100,1480.13184,kj,24656.0,mg,58960.0,mg,2144.0,mg,2144.0,mg,0.008576,g
+0000000000365,Mezcla simulado 365,frutos secos|envasados,100,632.48,kcal,20.368,g,21.44,g,,g,52.528,g,4.288,mg
+0000000000366,Cereal simulado 366,cereales|envasados,100,1661.08984,kj,10730.0,mg,75110.0,mg,12876.0,mg,5365.0,mg,0.16095,g
+0000000000367,Yogur simulado 367,lacteos|envasados,100,75.11,kcal,6.438,g,8.584,g,6.438,g,2.146,g,53.65,mg
+0000000000368,Galletita simulado 368,galletitas|envasados,100,1975.35008,kj,7511.0,mg,69745.0,mg,21460.0,mg,18241.0,mg,0.26825,g
+0000000000369,Lenteja simulado 369,legumbres|envasados,100,354.09,kcal,24.679,g,59.015,g,2.146,g,2.146,g,8.584,mg
+0000000000370,Mezcla simulado 370,frutos secos|envasados,100,2648.76488,kj,20387.0,mg,21460.0,mg,4292.0,mg,52577.0,mg,0.004292,g
+0000000000371,Cereal simulado 371,cereales|envasados,100,397.38,kcal,10.74,g,75.18,g,12.888,g,5.37,g,161.1,mg
+0000000000372,Yogur simulado 372,lacteos|envasados,100,314.55312,kj,6444.0,mg,8592.0,mg,,mg,2148.0,mg,0.0537,g
+0000000000373,Galletita simulado 373,galletitas|envasados,100,472.56,kcal,7.518,g,69.81,g,21.48,g,18.258,g,268.5,mg
+0000000000374,Lenteja simulado 374,legumbres|envasados,100,1482.89328,kj,24702.0,mg,59070.0,mg,2148.0,mg,2148.0,mg,0.008592,g
+0000000000375,Mezcla simulado 375,frutos secos|envasados,100,633.66,kcal,20.406,g,21.48,g,4.296,g,52.626,g,4.296,mg
+0000000000376,Cereal simulado 376,cereales|envasados,100,1664.186,kj,10750.0,mg,75250.0,mg,12900.0,mg,5375.0,mg,0.16125,g
+0000000000377,Yogur simulado 377,lacteos|envasados,100,75.25,kcal,6.45,g,8.6,g,6.45,g,2.15,g,53.75,mg
+0000000000378,Galletita simulado 378,galletitas|envasados,100,1979.032,kj,7525.0,mg,69875.0,mg,21500.0,mg,18275.0,mg,0.26875,g
+0000000000379,Lenteja simulado 379,legumbres|envasados,100,354.75,kcal,24.725,g,59.125,g,,g,2.15,g,8.6,mg
+0000000000380,Mezcla simulado 380,frutos secos|envasados,100,2653.702,kj,20425.0,mg,21500.0,mg,4300.0,mg,52675.0,mg,0.0043,g
+0000000000381,Cereal simulado 381,cereales|envasados,100,398.12,kcal,10.76,g,75.32,g,12.912,g,5.38,g,161.4,mg
+0000000000382,Yogur simulado 382,lacteos|envasados,100,315.13888,kj,6456.0,mg,8608.0,mg,6456.0,mg,2152.0,mg,0.0538,g
+0000000000383,Galletita simulado 383,galletitas|envasados,100,473.44,kcal,7.532,g,69.94,g,21.52,g,18.292,g,269.0,mg
+0000000000384,Lenteja simulado 384,legumbres|envasados,100,1485.65472,kj,24748.0,mg,59180.0,mg,2152.0,mg,2152.0,mg,0.008608,g
+0000000000385,Mezcla simulado 385,frutos secos|envasados,100,634.84,kcal,20.444,g,21.52,g,4.304,g,52.724,g,4.304,mg
+0000000000386,Cereal simulado 386,cereales|envasados,100,1667.28216,kj,10770.0,mg,75390.0,mg,,mg,5385.0,mg,0.16155,g
+0000000000387,Yogur simulado 387,lacteos|envasados,100,75.39,kcal,6.462,g,8.616,g,6.462,g,2.154,g,53.85,mg
+0000000000388,Galletita simulado 388,galletitas|envasados,100,1982.71392,kj,7539.0,mg,70005.0,mg,21540.0,mg,18309.0,mg,0.26925,g
+0000000000389,Lenteja simulado 389,legumbres|envasados,100,355.41,kcal,24.771,g,59.235,g,2.154,g,2.154,g,8.616,mg
+0000000000390,Mezcla simulado 390,frutos secos|envasados,100,2658.63912,kj,20463.0,mg,21540.0,mg,4308.0,mg,52773.0,mg,0.004308,g
+0000000000391,Cereal simulado 391,cereales|envasados,100,398.86,kcal,10.78,g,75.46,g,12.936,g,5.39,g,161.7,mg
+0000000000392,Yogur simulado 392,lacteos|envasados,100,315.72464,kj,6468.0,mg,8624.0,mg,6468.0,mg,2156.0,mg,0.0539,g
+0000000000393,Galletita simulado 393,galletitas|envasados,100,474.32,kcal,7.546,g,70.07,g,,g,18.326,g,269.5,mg
+0000000000394,Lenteja simulado 394,legumbres|envasados,100,1488.41616,kj,24794.0,mg,59290.0,mg,2156.0,mg,2156.0,mg,0.008624,g
+0000000000395,Mezcla simulado 395,frutos secos|envasados,100,636.02,kcal,20.482,g,21.56,g,4.312,g,52.822,g,4.312,mg
+0000000000396,Cereal simulado 396,cereales|envasados,100,1670.37832,kj,10790.0,mg,75530.0,mg,12948.0,mg,5395.0,mg,0.16185,g
+0000000000397,Yogur simulado 397,lacteos|envasados,100,75.53,kcal,6.474,g,8.632,g,6.474,g,2.158,g,53.95,mg
+0000000000398,Galletita simulado 398,galletitas|envasados,100,1986.39584,kj,7553.0,mg,70135.0,mg,21580.0,mg,18343.0,mg,0.26975,g
+0000000000399,Lenteja simulado 399,legumbres|envasados,100,356.07,kcal,24.817,g,59.345,g,2.158,g,2.158,g,8.632,mg
+0000000000400,Mezcla simulado 400,frutos secos|envasados,100,2663.57624,kj,20501.0,mg,21580.0,mg,,mg,52871.0,mg,0.004316,g
+0000000000401,Cereal simulado 401,cereales|envasados,100,399.6,kcal,10.8,g,75.6,g,12.96,g,5.4,g,162.0,mg
+0000000000402,Yogur simulado 402,lacteos|envasados,100,316.3104,kj,6480.0,mg,8640.0,mg,6480.0,mg,2160.0,mg,0.054,g
+0000000000403,Galletita simulado 403,galletitas|envasados,100,475.2,kcal,7.56,g,70.2,g,21.6,g,18.36,g,270.0,mg
+0000000000404,Lenteja simulado 404,legumbres|envasados,100,1491.1776,kj,24840.0,mg,59400.0,mg,2160.0,mg,2160.0,mg,0.00864,g
+0000000000405,Mezcla simulado 405,frutos secos|envasados,100,637.2,kcal,20.52,g,21.6,g,4.32,g,52.92,g,4.32,mg
+0000000000406,Cereal simulado 406,cereales|envasados,100,1673.47448,kj,10810.0,mg,75670.0,mg,12972.0,mg,5405.0,mg,0.16215,g
+0000000000407,Yogur simulado 407,lacteos|envasados,100,75.67,kcal,6.486,g,8.648,g,,g,2.162,g,54.05,mg
+0000000000408,Galletita simulado 408,galletitas|envasados,100,1990.07776,kj,7567.0,mg,70265.0,mg,21620.0,mg,18377.0,mg,0.27025,g
+0000000000409,Lenteja simulado 409,legumbres|envasados,100,356.73,kcal,24.863,g,59.455,g,2.162,g,2.162,g,8.648,mg
+0000000000410,Mezcla simulado 410,frutos secos|envasados,100,2668.51336,kj,20539.0,mg,21620.0,mg,4324.0,mg,52969.0,mg,0.004324,g
+0000000000411,Cereal simulado 411,cereales|envasados,100,400.34,kcal,10.82,g,75.74,g,12.984,g,5.41,g,162.3,mg
+0000000000412,Yogur simulado 412,lacteos|envasados,100,316.89616,kj,6492.0,mg,8656.0,mg,6492.0,mg,2164.0,mg,0.0541,g
+0000000000413,Galletita simulado 413,galletitas|envasados,100,476.08,kcal,7.574,g,70.33,g,21.64,g,18.394,g,270.5,mg
+0000000000414,Lenteja simulado 414,legumbres|envasados,100,1493.93904,kj,24886.0,mg,59510.0,mg,,mg,2164.0,mg,0.008656,g
+0000000000415,Mezcla simulado 415,frutos secos|envasados,100,638.38,kcal,20.558,g,21.64,g,4.328,g,53.018,g,4.328,mg
+0000000000416,Cereal simulado 416,cereales|envasados,100,1676.57064,kj,10830.0,mg,75810.0,mg,12996.0,mg,5415.0,mg,0.16245,g
+0000000000417,Yogur simulado 417,lacteos|envasados,100,75.81,kcal,6.498,g,8.664,g,6.498,g,2.166,g,54.15,mg
+0000000000418,Galletita simulado 418,galletitas|envasados,100,1993.75968,kj,7581.0,mg,70395.0,mg,21660.0,mg,18411.0,mg,0.27075,g
+0000000000419,Lenteja simulado 419,legumbres|envasados,100,357.39,kcal,24.909,g,59.565,g,2.166,g,2.166,g,8.664,mg
+0000000000420,Mezcla simulado 420,frutos secos|envasados,100,2673.45048,kj,20577.0,mg,21660.0,mg,4332.0,mg,53067.0,mg,0.004332,g
+0000000000421,Cereal simulado 421,cereales|envasados,100,401.08,kcal,10.84,g,75.88,g,,g,5.42,g,162.6,mg
+0000000000422,Yogur simulado 422,lacteos|envasados,100,317.48192,kj,6504.0,mg,8672.0,mg,6504.0,mg,2168.0,mg,0.0542,g
+0000000000423,Galletita simulado 423,galletitas|envasados,100,476.96,kcal,7.588,g,70.46,g,21.68,g,18.428,g,271.0,mg
+0000000000424,Lenteja simulado 424,legumbres|envasados,100,1496.70048,kj,24932.0,mg,59620.0,mg,2168.0,mg,2168.0,mg,0.008672,g
+0000000000425,Mezcla simulado 425,frutos secos|envasados,100,639.56,kcal,20.596,g,21.68,g,4.336,g,53.116,g,4.336,mg
+0000000000426,Cereal simulado 426,cereales|envasados,100,1679.6668,kj,10850.0,mg,75950.0,mg,13020.0,mg,5425.0,mg,0.16275,g
+0000000000427,Yogur simulado 427,lacteos|envasados,100,75.95,kcal,6.51,g,8.68,g,6.51,g,2.17,g,54.25,mg
+0000000000428,Galletita simulado 428,galletitas|envasados,100,1997.4416,kj,7595.0,mg,70525.0,mg,,mg,18445.0,mg,0.27125,g
+0000000000429,Lenteja simulado 429,legumbres|envasados,100,358.05,kcal,24.955,g,59.675,g,2.17,g,2.17,g,8.68,mg
+0000000000430,Mezcla simulado 430,frutos secos|envasados,100,2678.3876,kj,20615.0,mg,21700.0,mg,4340.0,mg,53165.0,mg,0.00434,g
+0000000000431,Cereal simulado 431,cereales|envasados,100,401.82,kcal,10.86,g,76.02,g,13.032,g,5.43,g,162.9,mg
+0000000000432,Yogur simulado 432,lacteos|envasados,100,318.06768,kj,6516.0,mg,8688.0,mg,6516.0,mg,2172.0,mg,0.0543,g
+0000000000433,Galletita simulado 433,galletitas|envasados,100,477.84,kcal,7.602,g,70.59,g,21.72,g,18.462,g,271.5,mg
+0000000000434,Lenteja simulado 434,legumbres|envasados,100,1499.46192,kj,24978.0,mg,59730.0,mg,2172.0,mg,2172.0,mg,0.008688,g
+0000000000435,Mezcla simulado 435,frutos secos|envasados,100,640.74,kcal,20.634,g,21.72,g,,g,53.214,g,4.344,mg
+0000000000436,Cereal simulado 436,cereales|envasados,100,1682.76296,kj,10870.0,mg,76090.0,mg,13044.0,mg,5435.0,mg,0.16305,g
+0000000000437,Yogur simulado 437,lacteos|envasados,100,76.09,kcal,6.522,g,8.696,g,6.522,g,2.174,g,54.35,mg
+0000000000438,Galletita simulado 438,galletitas|envasados,100,2001.12352,kj,7609.0,mg,70655.0,mg,21740.0,mg,18479.0,mg,0.27175,g
+0000000000439,Lenteja simulado 439,legumbres|envasados,100,358.71,kcal,25.001,g,59.785,g,2.174,g,2.174,g,8.696,mg
+0000000000440,Mezcla simulado 440,frutos secos|envasados,100,2683.32472,kj,20653.0,mg,21740.0,mg,4348.0,mg,53263.0,mg,0.004348,g
+0000000000441,Cereal simulado 441,cereales|envasados,100,402.56,kcal,10.88,g,76.16,g,13.056,g,5.44,g,163.2,mg
+0000000000442,Yogur simulado 442,lacteos|envasados,100,318.65344,kj,6528.0,mg,8704.0,mg,,mg,2176.0,mg,0.0544,g
+0000000000443,Galletita simulado 443,galletitas|envasados,100,478.72,kcal,7.616,g,70.72,g,21.76,g,18.496,g,272.0,mg
+0000000000444,Lenteja simulado 444,legumbres|envasados,100,1502.22336,kj,25024.0,mg,59840.0,mg,2176.0,mg,2176.0,mg,0.008704,g
+0000000000445,Mezcla simulado 445,frutos secos|envasados,100,641.92,kcal,20.672,g,21.76,g,4.352,g,53.312,g,4.352,mg
+0000000000446,Cereal simulado 446,cereales|envasados,100,1685.85912,kj,10890.0,mg,76230.0,mg,13068.0,mg,5445.0,mg,0.16335,g
+0000000000447,Yogur simulado 447,lacteos|envasados,100,76.23,kcal,6.534,g,8.712,g,6.534,g,2.178,g,54.45,mg
+0000000000448,Galletita simulado 448,galletitas|envasados,100,2004.80544,kj,7623.0,mg,70785.0,mg,21780.0,mg,18513.0,mg,0.27225,g
+0000000000449,Lenteja simulado 449,legumbres|envasados,100,359.37,kcal,25.047,g,59.895,g,,g,2.178,g,8.712,mg
+0000000000450,Mezcla simulado 450,frutos secos|envasados,100,2688.26184,kj,20691.0,mg,21780.0,mg,4356.0,mg,53361.0,mg,0.004356,g
+0000000000451,Cereal simulado 451,cereales|envasados,100,403.3,kcal,10.9,g,76.3,g,13.08,g,5.45,g,163.5,mg
+0000000000452,Yogur simulado 452,lacteos|envasados,100,319.2392,kj,6540.0,mg,8720.0,mg,6540.0,mg,2180.0,mg,0.0545,g
+0000000000453,Galletita simulado 453,galletitas|envasados,100,479.6,kcal,7.63,g,70.85,g,21.8,g,18.53,g,272.5,mg
+0000000000454,Lenteja simulado 454,legumbres|envasados,100,1504.9848,kj,25070.0,mg,59950.0,mg,2180.0,mg,2180.0,mg,0.00872,g
+0000000000455,Mezcla simulado 455,frutos secos|envasados,100,643.1,kcal,20.71,g,21.8,g,4.36,g,53.41,g,4.36,mg
+0000000000456,Cereal simulado 456,cereales|envasados,100,1688.95528,kj,10910.0,mg,76370.0,mg,,mg,5455.0,mg,0.16365,g
+0000000000457,Yogur simulado 457,lacteos|envasados,100,76.37,kcal,6.546,g,8.728,g,6.546,g,2.182,g,54.55,mg
+0000000000458,Galletita simulado 458,galletitas|envasados,100,2008.48736,kj,7637.0,mg,70915.0,mg,21820.0,mg,18547.0,mg,0.27275,g
+0000000000459,Lenteja simulado 459,legumbres|envasados,100,360.03,kcal,25.093,g,60.005,g,2.182,g,2.182,g,8.728,mg
+0000000000460,Mezcla simulado 460,frutos secos|envasados,100,2693.19896,kj,20729.0,mg,21820.0,mg,4364.0,mg,53459.0,mg,0.004364,g
+0000000000461,Cereal simulado 461,cereales|envasados,100,404.04,kcal,10.92,g,76.44,g,13.104,g,5.46,g,163.8,mg
+0000000000462,Yogur simulado 462,lacteos|envasados,100,319.82496,kj,6552.0,mg,8736.0,mg,6552.0,mg,2184.0,mg,0.0546,g
+0000000000463,Galletita simulado 463,galletitas|envasados,100,480.48,kcal,7.644,g,70.98,g,,g,18.564,g,273.0,mg
+0000000000464,Lenteja simulado 464,legumbres|envasados,100,1507.74624,kj,25116.0,mg,60060.0,mg,2184.0,mg,2184.0,mg,0.008736,g
+0000000000465,Mezcla simulado 465,frutos secos|envasados,100,644.28,kcal,20.748,g,21.84,g,4.368,g,53.508,g,4.368,mg
+0000000000466,Cereal simulado 466,cereales|envasados,100,1692.05144,kj,10930.0,mg,76510.0,mg,13116.0,mg,5465.0,mg,0.16395,g
+0000000000467,Yogur simulado 467,lacteos|envasados,100,76.51,kcal,6.558,g,8.744,g,6.558,g,2.186,g,54.65,mg
+0000000000468,Galletita simulado 468,galletitas|envasados,100,2012.16928,kj,7651.0,mg,71045.0,mg,21860.0,mg,18581.0,mg,0.27325,g
+0000000000469,Lenteja simulado 469,legumbres|envasados,100,360.69,kcal,25.139,g,60.115,g,2.186,g,2.186,g,8.744,mg
+0000000000470,Mezcla simulado 470,frutos secos|envasados,100,2698.13608,kj,20767.0,mg,21860.0,mg,,mg,53557.0,mg,0.004372,g
+0000000000471,Cereal simulado 471,cereales|envasados,100,404.78,kcal,10.94,g,76.58,g,13.128,g,5.47,g,164.1,mg
+0000000000472,Yogur simulado 472,lacteos|envasados,100,320.41072,kj,6564.0,mg,8752.0,mg,6564.0,mg,2188.0,mg,0.0547,g
+0000000000473,Galletita simulado 473,galletitas|envasados,100,481.36,kcal,7.658,g,71.11,g,21.88,g,18.598,g,273.5,mg
+0000000000474,Lenteja simulado 474,legumbres|envasados,100,1510.50768,kj,25162.0,mg,60170.0,mg,2188.0,mg,2188.0,mg,0.008752,g
+0000000000475,Mezcla simulado 475,frutos secos|envasados,100,645.46,kcal,20.786,g,21.88,g,4.376,g,53.606,g,4.376,mg
+0000000000476,Cereal simulado 476,cereales|envasados,100,1695.1476,kj,10950.0,mg,76650.0,mg,13140.0,mg,5475.0,mg,0.16425,g
+0000000000477,Yogur simulado 477,lacteos|envasados,100,76.65,kcal,6.57,g,8.76,g,,g,2.19,g,54.75,mg
+0000000000478,Galletita simulado 478,galletitas|envasados,100,2015.8512,kj,7665.0,mg,71175.0,mg,21900.0,mg,18615.0,mg,0.27375,g
+0000000000479,Lenteja simulado 479,legumbres|envasados,100,361.35,kcal,25.185,g,60.225,g,2.19,g,2.19,g,8.76,mg
+0000000000480,Mezcla simulado 480,frutos secos|envasados,100,2703.0732,kj,20805.0,mg,21900.0,mg,4380.0,mg,53655.0,mg,0.00438,g
+0000000000481,Cereal simulado 481,cereales|envasados,100,405.52,kcal,10.96,g,76.72,g,13.152,g,5.48,g,164.4,mg
+0000000000482,Yogur simulado 482,lacteos|envasados,100,320.99648,kj,6576.0,mg,8768.0,mg,6576.0,mg,2192.0,mg,0.0548,g
+0000000000483,Galletita simulado 483,galletitas|envasados,100,482.24,kcal,7.672,g,71.24,g,21.92,g,18.632,g,274.0,mg
+0000000000484,Lenteja simulado 484,legumbres|envasados,100,1513.26912,kj,25208.0,mg,60280.0,mg,,mg,2192.0,mg,0.008768,g
+0000000000485,Mezcla simulado 485,frutos secos|envasados,100,646.64,kcal,20.824,g,21.92,g,4.384,g,53.704,g,4.384,mg
+0000000000486,Cereal simulado 486,cereales|envasados,100,1698.24376,kj,10970.0,mg,76790.0,mg,13164.0,mg,5485.0,mg,0.16455,g
+0000000000487,Yogur simulado 487,lacteos|envasados,100,76.79,kcal,6.582,g,8.776,g,6.582,g,2.194,g,54.85,mg
+0000000000488,Galletita simulado 488,galletitas|envasados,100,2019.53312,kj,7679.0,mg,71305.0,mg,21940.0,mg,18649.0,mg,0.27425,g
+0000000000489,Lenteja simulado 489,legumbres|envasados,100,362.01,kcal,25.231,g,60.335,g,2.194,g,2.194,g,8.776,mg
+0000000000490,Mezcla simulado 490,frutos secos|envasados,100,2708.01032,kj,20843.0,mg,21940.0,mg,4388.0,mg,53753.0,mg,0.004388,g
+0000000000491,Cereal simulado 491,cereales|envasados,100,406.26,kcal,10.98,g,76.86,g,,g,5.49,g,164.7,mg
+0000000000492,Yogur simulado 492,lacteos|envasados,100,321.58224,kj,6588.0,mg,8784.0,mg,6588.0,mg,2196.0,mg,0.0549,g
+0000000000493,Galletita simulado 493,galletitas|envasados,100,483.12,kcal,7.686,g,71.37,g,21.96,g,18.666,g,274.5,mg
+0000000000494,Lenteja simulado 494,legumbres|envasados,100,1516.03056,kj,25254.0,mg,60390.0,mg,2196.0,mg,2196.0,mg,0.008784,g
+0000000000495,Mezcla simulado 495,frutos secos|envasados,100,647.82,kcal,20.862,g,21.96,g,4.392,g,53.802,g,4.392,mg
+0000000000496,Cereal simulado 496,cereales|envasados,100,1701.33992,kj,10990.0,mg,76930.0,mg,13188.0,mg,5495.0,mg,0.16485,g
+0000000000497,Yogur simulado 497,lacteos|envasados,100,76.93,kcal,6.594,g,8.792,g,6.594,g,2.198,g,54.95,mg
+0000000000498,Galletita simulado 498,galletitas|envasados,100,2023.21504,kj,7693.0,mg,71435.0,mg,,mg,18683.0,mg,0.27475,g
+0000000000499,Lenteja simulado 499,legumbres|envasados,100,362.67,kcal,25.277,g,60.445,g,2.198,g,2.198,g,8.792,mg
+0000000000500,Mezcla simulado 500,frutos secos|envasados,100,2712.94744,kj,20881.0,mg,21980.0,mg,4396.0,mg,53851.0,mg,0.004396,g
