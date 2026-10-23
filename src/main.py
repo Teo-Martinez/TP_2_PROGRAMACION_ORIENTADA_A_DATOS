@@ -11,6 +11,7 @@ from src.consultas import (
     ordenar_productos,
     seleccionar_productos,
 )
+from src.diagnostico import resumir_validos
 from src.fuentes import FuenteCSV, FuenteJSON
 from src.preparacion import diagnosticar, preparar_productos
 from src.productos import UNIDADES
@@ -64,6 +65,7 @@ def ejecutar(args):
     if len(productos) + len(rechazos) != len(registros):
         raise ValueError("Los conteos de limpieza no coinciden.")
     diagnostico.update({
+        "resumen_validos": resumir_validos(productos),
         "archivo": str(ruta),
         "sha256": hashlib.sha256(ruta.read_bytes()).hexdigest(),
         "validos": len(productos), "rechazados": len(rechazos),

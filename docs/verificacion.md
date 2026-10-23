@@ -8,7 +8,7 @@ comprobó con Python 3.12; eso no equivale a ejecutar en todas las versiones.
 python -m unittest discover -s tests -v
 ```
 
-Resultado: 37 pruebas correctas. Incluyen generación determinista, lectores,
+Resultado: 45 pruebas correctas. Incluyen generación determinista, lectores,
 conversiones, faltantes frente a cero, EAN con ceros iniciales, rangos,
 duplicados, trazabilidad, conservación de conteos, consultas, ordenamiento,
 exportación, protección de entrada y equivalencia integral entre CSV y JSON.
@@ -23,3 +23,8 @@ Para reproducir esa revisión opcional: instalar pycodestyle y ejecutar
 La primera corrección agrega siete pruebas de JSON anidado: conversión conocida,
 entrada intacta, contrato común del lector, equivalencia de 500 fichas, ausencias
 frente a cero, estructuras inválidas y exportación desde la consola.
+
+La segunda corrección añade ocho pruebas de diagnóstico: dimensiones y tipos,
+ejemplos sin modificar entradas, valores inválidos como texto, estadísticas
+con unidades mixtas y ceros, exclusión de rechazos/duplicados, casos sin valores,
+equivalencia CSV/JSON y diagnóstico exportado sobre todo el catálogo.
