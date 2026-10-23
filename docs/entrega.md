@@ -1,50 +1,79 @@
-# Entrega y publicación
+# Entrega del trabajo práctico
 
-Este es un proyecto nuevo, desarrollado ahora con Git local desde la definición
-inicial. No es la rama reconstruida del proyecto anterior. El historial conserva
-fechas actuales y autoría técnica Codex (asistente), sin atribuir acciones de Git
-al estudiante. Teo Martinez figura como autor académico. Revisá las reglas de la
-cátedra sobre asistencia y asegurate de poder explicar cada parte.
+Autor: Teo Martinez.
 
-## Comprobar el historial
+## Repositorio publicado
 
-Descomprimir el ZIP en una carpeta nueva. Conservar .git. No superponerlo sobre
-el repositorio anterior. Desde comparador-nutricional:
+[Comparador de etiquetas nutricionales](https://github.com/Teo-Martinez/TP_2_PROGRAMACION_ORIENTADA_A_DATOS)
+
+El proyecto está publicado en la rama main. Conserva los ocho commits del
+desarrollo inicial, la integración del README inicial de GitHub y las
+correcciones posteriores. Git se utilizó localmente desde la definición del
+alcance; la publicación en GitHub se realizó después. Las fechas y autorías
+registradas por Git se conservan. El código se elaboró con asistencia de IA;
+la explicación y defensa individual corresponden al estudiante.
+
+## Verificar antes de entregar
+
+Desde la raíz del proyecto, en Windows:
 
 ```bash
+py -m unittest discover -s tests -v
 git status
-git log --oneline --reverse
-python -m unittest discover -s tests -v
+git log --oneline --graph --all
 ```
 
-Cada commit incorpora trabajo de su etapa con verificaciones disponibles en ese
-momento: alcance, simulación, lectores, modelo, limpieza, consultas, consola y
-verificación integral/documentación. El primer commit no incluye código terminado.
+Deben aprobarse las 49 pruebas. Revisar que no queden cambios del proyecto sin
+confirmar y que el último commit se haya enviado al remoto. Las salidas dentro
+de outputs/ están excluidas mediante .gitignore: se regeneran al ejecutar.
 
-## Subir sin mezclar historiales
-
-Crear un repositorio nuevo y completamente vacío en GitHub (sin README, licencia
-ni gitignore inicial). Reemplazar URL_NUEVA por la URL real, no usar ese marcador
-literalmente:
+Demostración de uso:
 
 ```bash
-git remote add origin URL_NUEVA
-git push -u origin main
+py -m src.main --listar-categorias
+py -m src.main --codigos 0000000000001 0000000000002
+py -m src.main --archivo data/ejemplo_anidado.json
 ```
 
-No se publicó desde este entorno. El repositorio anterior sigue intacto. No usar
-push forzado para sustituirlo sin decidir expresamente qué historial conservar.
+En equipos donde el comando disponible sea python, reemplazar py por python.
+No se requiere instalar dependencias externas.
 
-Si se exige usar exactamente la URL anterior, primero hay que acordar cómo se
-conserva el trabajo ya publicado. No importar la rama desarrollo reconstruida
-sobre esta implementación nueva.
+## Identificar la versión evaluada
 
-## Identificar la versión entregada
+Después de confirmar y subir el último cambio que se quiera entregar:
 
 ```bash
 git rev-parse HEAD
 ```
 
-Entregar enlace y commit, con acceso público o concedido a la cátedra.
-Para nuevos commits propios, configurar tu nombre y correo reales en Git,
-revisar git status y git diff y probar antes de confirmar.
+Entregar en el medio indicado por la cátedra:
+
+- El enlace al repositorio publicado.
+- El identificador completo que devuelve el comando anterior.
+
+El commit identifica una versión fija aunque luego main avance. No agregar ese
+mismo identificador al contenido de un nuevo commit: usarlo en la entrega de EVA
+o en el mensaje que acompañe al enlace. La alternativa es una etiqueta de Git,
+pero no es necesaria si se entrega el identificador.
+
+## Acceso y reproducción
+
+Mantener el repositorio accesible para la cátedra durante toda la evaluación.
+Si es privado, conceder acceso a la cuenta indicada por el profesor.
+
+Para obtener una copia nueva, desde una ubicación donde no exista la carpeta
+comparador-nutricional:
+
+```bash
+git clone https://github.com/Teo-Martinez/TP_2_PROGRAMACION_ORIENTADA_A_DATOS.git comparador-nutricional
+cd comparador-nutricional
+py -m unittest discover -s tests -v
+```
+
+## Defensa individual
+
+Preparar una demostración breve y explicar problema, simulación, unidades,
+limpieza, clases, regex, pruebas y desarrollo registrado en Git. La guía está en
+[defensa.md](defensa.md). El formato y las fechas son los de esta materia en EVA.
+Si corresponde recuperar la exposición del TP1, preparar también las preguntas
+sobre ese trabajo que prevé la consigna.

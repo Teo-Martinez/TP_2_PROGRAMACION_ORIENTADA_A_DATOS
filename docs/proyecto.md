@@ -4,31 +4,35 @@ Autor: Teo Martinez.
 
 Una persona que consulta etiquetas necesita comparar nutrientes con unidades y
 bases homogéneas, sin confundir información desconocida con cero. La solución
-será un catálogo de consola para buscar códigos, seleccionar categorías o varios
+es un catálogo de consola para buscar códigos, seleccionar categorías o varios
 productos y exportar una tabla por cada 100 gramos.
 
-La primera versión utilizará 500 productos ficticios y archivos CSV y JSON
-locales equivalentes. Incluirá energía, proteínas, carbohidratos, azúcares,
-grasas y sodio. Un producto podrá pertenecer a varias categorías.
+La versión implementada utiliza 500 productos ficticios y archivos CSV y JSON
+locales equivalentes. Incluye energía, proteínas, carbohidratos, azúcares,
+grasas y sodio. Un producto puede pertenecer a varias categorías.
 
-Preguntas que resolverá:
+Preguntas que resuelve:
 1. ¿Qué valores nutricionales tiene un producto identificado por su código?
 2. ¿Cómo se comparan los nutrientes de los productos elegidos?
 3. ¿Qué productos pertenecen a una categoría y qué información les falta?
 
 Quedan fuera: web, fotografías, acceso a una API, prescripción de dietas,
 recomendaciones clínicas y productos expresados solo por volumen o porciones
-sin masa conocida. La comparación describirá cantidades, no una clasificación
+sin masa conocida. La comparación describe cantidades, no una clasificación
 global de alimentos saludables.
 
 ## Desarrollo
 
-Se inicia un proyecto nuevo con Git antes de implementar el programa. Se usará
-el trabajo anterior como referencia de requisitos; no se modifica su historial.
-El código de esta versión se implementará y comprobará en etapas sucesivas.
-Los commits registran el trabajo asistido realizado ahora, con fechas actuales.
-La autoría académica es Teo Martinez y la autoría técnica de los commits del
-asistente se identifica como tal.
+Git se inicializó antes de implementar el programa. El historial registra ocho
+etapas iniciales: alcance, simulación, fuentes, modelo, preparación, consultas,
+consola y verificación integral. Después se incorporaron mejoras de JSON anidado,
+diagnóstico y comunicación de rechazos. La publicación en GitHub se realizó
+después del desarrollo local; se conserva la integración del README remoto.
+
+El código se elaboró con asistencia de IA. El historial distingue la autoría
+técnica de los commits y los avances confirmados por el estudiante. Teo Martinez
+figura como autor del trabajo. El repositorio publicado y el procedimiento para
+identificar la versión evaluada están en [entrega.md](entrega.md).
 
 ## Estructura implementada
 
