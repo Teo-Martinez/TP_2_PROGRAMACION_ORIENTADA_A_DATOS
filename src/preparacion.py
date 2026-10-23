@@ -3,6 +3,7 @@
 import math
 import re
 
+from src.diagnostico import resumir_estructura
 from src.productos import ProductoNutricional, UNIDADES
 
 CAMPOS = ["codigo", "nombre", "categorias", "base_g"]
@@ -68,8 +69,12 @@ def diagnosticar(registros):
         if codigo in vistos:
             duplicados += 1
         vistos.add(codigo)
-    return {"total_entrada": len(registros), "faltantes": faltantes,
-            "codigos_repetidos": duplicados}
+    return {
+        "total_entrada": len(registros),
+        "faltantes": faltantes,
+        "codigos_repetidos": duplicados,
+        "estructura_entrada": resumir_estructura(registros),
+    }
 
 
 def normalizar_ficha(registro):

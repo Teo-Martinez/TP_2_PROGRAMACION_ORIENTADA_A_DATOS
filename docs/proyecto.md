@@ -37,7 +37,8 @@ asistente se identifica como tal.
 | scripts/crear_muestra.py | Generar entradas deterministas |
 | src/fuentes.py | FuenteDatos abstracta, FuenteCSV y FuenteJSON |
 | src/productos.py | ProductoNutricional y conversión |
-| src/preparacion.py | Diagnóstico, normalización, validación y trazabilidad |
+| src/preparacion.py | Normalización, validación y trazabilidad |
+| src/diagnostico.py | Estructura de entrada y estadísticas de fichas válidas |
 | src/consultas.py | Índice, búsqueda, categorías, selección y comparación |
 | src/salidas.py | Consola y exportaciones |
 | src/main.py | Parámetros y coordinación |
@@ -50,7 +51,8 @@ Se usan funciones pequeñas y listas/diccionarios; no se requieren pandas ni web
 
 Bibliotecas estándar: abc para abstracción; csv/json para archivos; re para el
 patrón de código; math para excluir NaN e infinito; pathlib para rutas; argparse
-para opciones; sys para códigos de salida y errores; hashlib para identificar el
+para opciones; statistics para la media de valores conocidos; sys para errores;
+hashlib para identificar el
 archivo original con SHA-256; unittest, tempfile, subprocess, copy y ast para
 pruebas, aislamiento de casos y comprobación de sintaxis.
 
@@ -113,3 +115,34 @@ Los códigos 0000000000001 y 0000000000002 tienen 10 g y 6 g de proteínas por
 70 kcal. El primero no tiene azúcar disponible: no se interpreta como cero.
 Esto describe los productos simulados; no demuestra qué alimento real conviene
 consumir ni permite generalizar a marcas o a una población.
+
+## Diagnóstico ampliado
+
+`estructura_entrada` en diagnostico.json describe la tabla adaptada al esquema
+común, antes de convertir tipos o rechazar fichas. Incluye filas, columnas, tipos
+de Python observados por campo, campos estructuralmente ausentes, frecuencias
+de categorías y unidades, y hasta tres ejemplos como texto. CSV presenta
+cantidades como str y JSON normalmente como int/float: es una diferencia de
+formato, no un error por sí sola. Un campo ausente no es igual a un campo
+presente con null; la sección faltantes conserva el conteo general de ausencias.
+Los ejemplos y unidades originales se muestran con repr, como texto, incluso
+si contienen cantidades inválidas. Las categorías de entrada se cuentan una vez
+por fila y categoría, conservando las filas que después podrían rechazarse.
+
+`resumen_validos` usa todas las fichas aceptadas, antes de filtrar una consulta.
+Incluye frecuencias de categorías y, para cada nutriente, unidad, base de 100 g,
+conocidos, desconocidos, cobertura porcentual, mínimo, máximo y media. Estas
+estadísticas se calculan después de validar y convertir unidades; no se mezclan
+g y mg ni se incorporan fichas rechazadas o duplicadas. Cero participa como
+valor conocido. Una ausencia nunca se reemplaza por cero para calcular la media.
+
+La cobertura es 100 * conocidos / total de productos válidos. Si no hay productos,
+la cobertura es null. Si hay productos pero ningún valor del nutriente, la
+cobertura es 0 y mínimo/máximo/media son null. Las categorías no son excluyentes,
+por lo que sumar sus frecuencias no da necesariamente el número de productos.
+
+En la muestra: 500 filas, 16 columnas, cinco familias de 100 productos y categoría
+compartida envasados con 500. Azúcares tiene 428 valores conocidos, 72 desconocidos
+y cobertura de 85,6 %. La energía de entrada se reparte en 250 kcal y 250 kJ.
+CSV y JSON producen el mismo resumen nutricional; sus tipos originales difieren.
+Esta evidencia permite justificar la conversión y el tratamiento de faltantes.
