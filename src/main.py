@@ -15,7 +15,11 @@ from src.diagnostico import resumir_validos
 from src.fuentes import FuenteCSV, FuenteJSON
 from src.preparacion import diagnosticar, preparar_productos
 from src.productos import UNIDADES
-from src.salidas import guardar_resultados, mostrar_comparacion
+from src.salidas import (
+    guardar_resultados,
+    mostrar_comparacion,
+    mostrar_rechazos,
+)
 
 
 def crear_parser():
@@ -51,6 +55,7 @@ def ejecutar(args):
     diagnostico = diagnosticar(registros)
     productos, rechazos, cambios = preparar_productos(registros)
     if args.listar_categorias:
+        mostrar_rechazos(rechazos, len(registros))
         for categoria, cantidad in listar_categorias(productos).items():
             print(f"{categoria}: {cantidad}")
         if not productos:

@@ -146,3 +146,17 @@ compartida envasados con 500. Azúcares tiene 428 valores conocidos, 72 desconoc
 y cobertura de 85,6 %. La energía de entrada se reparte en 250 kcal y 250 kJ.
 CSV y JSON producen el mismo resumen nutricional; sus tipos originales difieren.
 Esta evidencia permite justificar la conversión y el tratamiento de faltantes.
+
+## Rechazos durante el listado de categorías
+
+`--listar-categorias` informa por la salida de errores (stderr) cuántos registros
+fueron rechazados, junto con número de registro, código y primer motivo de
+rechazo de cada ficha. Los conteos de categorías (stdout) usan solo productos
+válidos, sin contar duplicados descartados. Si hay fichas válidas, la consulta
+termina con código 0 y el aviso permite reconocer que el catálogo fue depurado.
+Si todas las fichas se rechazan, muestra sus motivos y termina con código 1.
+Si ninguna se rechaza, no muestra una advertencia innecesaria.
+
+El listado no crea ni modifica comparaciones, rechazos, cambios o diagnósticos
+previos. Para guardar esos reportes se debe ejecutar una comparación. Los errores
+de estructura o lectura siguen deteniendo la entrada con un mensaje explícito.

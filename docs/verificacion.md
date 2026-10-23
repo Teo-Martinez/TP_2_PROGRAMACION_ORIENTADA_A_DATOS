@@ -8,7 +8,7 @@ comprobó con Python 3.12; eso no equivale a ejecutar en todas las versiones.
 python -m unittest discover -s tests -v
 ```
 
-Resultado: 45 pruebas correctas. Incluyen generación determinista, lectores,
+Resultado: 49 pruebas correctas. Incluyen generación determinista, lectores,
 conversiones, faltantes frente a cero, EAN con ceros iniciales, rangos,
 duplicados, trazabilidad, conservación de conteos, consultas, ordenamiento,
 exportación, protección de entrada y equivalencia integral entre CSV y JSON.
@@ -28,3 +28,7 @@ La segunda corrección añade ocho pruebas de diagnóstico: dimensiones y tipos,
 ejemplos sin modificar entradas, valores inválidos como texto, estadísticas
 con unidades mixtas y ceros, exclusión de rechazos/duplicados, casos sin valores,
 equivalencia CSV/JSON y diagnóstico exportado sobre todo el catálogo.
+
+La tercera corrección añade cuatro pruebas del listado de categorías: aviso con
+rechazos mixtos y duplicados, detalle cuando todas las fichas son inválidas,
+ausencia de avisos en entradas válidas y preservación de reportes existentes.
